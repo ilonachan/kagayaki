@@ -4,7 +4,7 @@ PyYAML~=6.0
 requests~=2.27.1
 setuptools==60.9.3
 uvloop~=0.16.0; sys_platform != "win32"
-kagaconf~=0.1.2
+kagaconf~=0.1.3
 numpy~=1.22.2
 asyncpraw~=7.5.0
 pytz~=2021.3

@@ -1,6 +1,7 @@
 import asyncio
 import logging
 import random
+import re
 
 from asyncio import sleep
 from typing import Any, Sequence, Union
@@ -19,6 +20,16 @@ from hikari.messages import PartialMessage, Message
 from hikari.files import Resourceish
 
 log = logging.getLogger(__name__)
+
+
+from kagaconf import cfg
+
+
+def resolve_config(content: str, **kwargs) -> str:
+    def process_config(m: re.Match):
+        res = eval(m.group(1), {'cfg': cfg, **kwargs})
+        return str(res)
+    return re.sub(r"{(cfg\.[^}]+)}", process_config, content)
 
 
 async def natural_message(channel: SnowflakeishOr[TextableChannel],
@@ -65,7 +76,8 @@ async def natural_message(channel: SnowflakeishOr[TextableChannel],
     :param cps: the typing speed of the bot in characters/second
     :return:
     """
-    content = str(content).format(cfg=cfg, **kwargs)
+    content = resolve_config(str(content), **kwargs)
+    content = content.format(**kwargs)
 
     # typing speed is the baseline for how long messages take to compose
     waiting_time = len(content) / cps * np.random.normal(1, 0.05)
@@ -105,7 +117,7 @@ async def say_hi(event: GuildAvailableEvent):
         return
     # await bot.rest.edit_my_member(event.guild_id, nickname="kagachan")
     choice = random.choice(cfg.humanize.dialogue.restart())
-    await run_sequence(general_channel_id, choice)
+    await run_sequence(general_channel_id, choice, guild_id=event.guild_id)
 
 
 @bot.listen()
