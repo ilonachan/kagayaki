@@ -15,8 +15,6 @@ while getopts v:bx flag; do
   esac
 done
 
-echo $BUILD $EXEC $VERSION
-
 if [ $BUILD -eq 1 ]; then
   docker build -t ${APP_NAME}:"${VERSION}" .
 fi
