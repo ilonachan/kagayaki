@@ -1,0 +1,49 @@
+knockknock:
+  main:
+    - "old lady | I didn't know you could yodel"
+    - "cows say | No, cows say moooo"
+    - "amish | no you're a human not a shoe"
+    - "twit | ...is anyone else hearing an owl?"
+    - "wire | wire you asking me?"
+    - "broccoli | silly, broccoli doesn't have a last name"
+    - "cash | no, I prefer peanuts"
+    - "spell | okay: W H O"
+    - "to | uhm actually it's \"to whom\""
+    - "Mikey | Mikey doesn't work, could you let me in"
+  fail_who:
+    - "nooo you gotta say \"who's there\""
+  fail_rep:
+    - "are you even trying tho"
+    - "do you do this with every knock knock joke"
+  fail:
+    - "hey that's not how that works"
+    - "cmon play along pllllzz"
+    - "do you know how knock knock jokes work?"
+    - "please, I promise this is going somewhere"
+    - "okay, from the top"
+    - "...let's try that again"
+    - "https://tenor.com/view/sakurai-excited-happy-this-isnt-how-you-supposed-to-play-the-game-play-the-game-gif-15161132"
+
+
+jokes:
+  before:
+    - "Okay, here's a good one"
+    - "Alright here it comes"
+    - "I really like this one"
+    - "Have you heard this one already?"
+    - "Here's one just for you"
+    - "What do you think of this one"
+    - "Hope this makes you laugh"
+    - "Hey have I told you this one already"
+  main:
+    - "sorry, no jokes"
+  after:
+    - "You like it?"
+    - "Hope you like it ^_^"
+    - "Did you laugh?"
+    - "I love human comedy!"
+  abort:
+    - "sorry, I'm just being annoying am I"
+    - "ok then let's try this again some other time"
+    - "I can tell you the joke later if you like"
+    - "fine, then I won't tell you >:("

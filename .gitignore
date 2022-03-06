@@ -1,0 +1,7 @@
+/kagayaki.log
+/venv/
+__pycache__/
+/.idea/
+/pid.lock
+/db/
+/deploy.env

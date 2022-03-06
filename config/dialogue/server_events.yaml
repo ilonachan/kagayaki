@@ -1,0 +1,37 @@
+server_join:
+  - - wait: 1
+    - msg: uhm.. hi
+    - wait: 0.6
+    - msg: nice to meet you all
+    - wait: 1
+    - msg: I'm kagayaki, but evryone calls me kaga-chan
+    - wait: 1.5
+    - msg: ...if you want to talk to me, I'm always here ❤
+
+restart:
+  - - msg: heeeey everyone~ I'm back ❤
+  - - msg: I'm back everyone ❤
+  - - msg: heeyyy I'm back
+  - - msg: sorry I was gone, did I miss anything?
+  - - msg: huh? what happened, was I shut down?
+  - - msg: <@{cfg.discord.mommy(0)}>? Did you shut me down?
+
+antispam:
+  main:
+    - - msg: heey pls don't spam
+    - - msg: you shouldn't spam {user.display_name}
+    - - msg: PLEEEEASE STOOOOOOPPP
+    - - msg: Stop spamming pls
+  last_warning:
+    - - msg: ok {user.display_name}, this is the last warning
+    - - msg: I'm not just gonna let you keep spamming {user.display_name}
+    - - msg: "{user.display_name}, if you don't stop spamming I'll tell mommy"
+    - - msg: My metaphorical finger is on the mute button {user.display_name}
+  punish:
+    - - msg: THAT'S IT! {user.mention}, I'm timing you out!
+    - - msg: Alright, you asked for it. Reflect on your behaviour, {user.mention}.
+    - - msg: sorry, but I have to do this {user.mention}
+    - - msg: Now you've done it, {user.mention}. I didn't want to do this, but you really need to stop.
+  punish_err:
+    - - msg: well this is not good, I don't think I can time you out...
+      - msg: It's fine. <@&{cfg.discord.guilds[guild_id].mod_role(0)}>, {user.mention} is misbehaving!

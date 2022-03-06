@@ -1,0 +1,4 @@
+reddit:
+  client_id: "CLIENT_ID"
+  client_secret: "CLIENT_SECRET"
+  user_agent: "user agent to be sent to reddit, might have to contain your reddit handle but probably not idk"

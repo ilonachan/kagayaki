@@ -1,0 +1,26 @@
+version: 1
+formatters:
+  simple:
+    format: '%(levelname)-8s %(asctime)s: [%(name)s] %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+  logfile:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: simple
+    filename: 'kagayaki.log'
+loggers:
+  __main__:
+    level: DEBUG
+  'kagayaki':
+    level: DEBUG
+  'kagaconf':
+    level: INFO
+root:
+  level: INFO
+  handlers: [console, logfile]
+disable_existing_loggers: False
