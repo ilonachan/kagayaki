@@ -62,7 +62,8 @@ async def stabby_message(event: GuildMessageCreateEvent):
     if stabby_role in (await bot.rest.fetch_member(event.guild_id, event.author_id)).role_ids:
         await event.message.add_reaction("\N{HOCHO}")
         prev_msg = await bot.rest.fetch_messages(event.channel_id, before=event.message).limit(1).next()
-        await prev_msg.remove_reaction("\N{HOCHO}")
+        if prev_msg.author.id == event.author_id:
+            await prev_msg.remove_reaction("\N{HOCHO}")
 
 
 @bot.listen()

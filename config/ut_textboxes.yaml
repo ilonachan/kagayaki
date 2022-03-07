@@ -1,0 +1,4254 @@
+utbox:
+  # this dictionary was compiled in a lengthy collaboration between automated HTML parsing and copy-paste.
+  # if anything changes on the website, and consequently breaks the program,
+  # PLEASE DO NOT tell me as I want nothing to do with this interface anymore.
+  universes:
+    undertale:
+      name: "Undertale"
+      takes:
+        undertale:
+          name: "Undertale"
+          characters:
+            undertale-alphys:
+              aliases:
+                - alphys
+              default_expr: default
+              expressions:
+                concerned: [ ]
+                confident:
+                  - bedroom-eyes
+                default: [ ]
+                excited: [ ]
+                happy-blush:
+                  - blush
+                  - blushing
+                looking-up: [ ]
+                love: [ ]
+                nervous: [ ]
+                nervous-looking-up: [ ]
+                nervous2: [ ]
+                pain: [ ]
+                pain2:
+                  - pain-looking-away
+                relieved: [ ]
+                relieved-looking-away:
+                  - looking-away-relieved
+                sad: [ ]
+                sad-looking-away: [ ]
+                sad-looking-down: [ ]
+                sad-surprised: [ ]
+                serious: [ ]
+                serious-looking-away: [ ]
+                surprised:
+                  - shocked
+                sweat:
+                  - sweating
+                sweat-blush:
+                  - blush-sweat
+                  - blush-sweating
+                  - blushing-sweat
+                  - blushing-sweating
+                  - sweat-blushing
+                  - sweating-blush
+                  - sweating-blushing
+                sweat-couraged:
+                  - couraged-sweat
+                  - couraged-sweating
+                  - sweating-couraged
+                sweat-looking-away:
+                  - looking-away-sweat
+                  - looking-away-sweating
+                  - looking-down-sweat
+                  - looking-down-sweating
+                  - sweating-looking-away
+                  - sweating-looking-down
+                sweat-looking-down: [ ]
+                sweat-smiling:
+                  - smile-sweat
+                  - smile-sweating
+                  - smiling-sweat
+                  - smiling-sweating
+                  - sweat-smile
+                  - sweating-smile
+                  - sweating-smiling
+              id: 8
+              name: Alphys
+            undertale-asgore:
+              aliases:
+                - asgore
+              default_expr: default
+              expressions:
+                closed-eyes: [ ]
+                default: [ ]
+                googly-eyes: [ ]
+                happy: [ ]
+                happy-closed-eyes: [ ]
+                hurt: [ ]
+                hurt2: [ ]
+                looking-away: [ ]
+                sad: [ ]
+                sad-closed-eyes: [ ]
+                sad-closed-eyes2: [ ]
+                sad-closed-eyes3: [ ]
+                sad-looking-away: [ ]
+                scream: [ ]
+                semi-closed-eyes: [ ]
+                serious-closed-eyes: [ ]
+                serious-closed-eyes-crying: [ ]
+                shadow:
+                  - battle
+                  - fight
+                shocked: [ ]
+                shocked-looking-away: [ ]
+                surprised: [ ]
+                sweat: [ ]
+                tears: [ ]
+                what: [ ]
+                worried: [ ]
+              id: 10
+              name: Asgore
+            undertale-asriel:
+              aliases:
+                - asriel
+              default_expr: default
+              expressions:
+                couraged: [ ]
+                default: [ ]
+                looking-away: [ ]
+                relieved: [ ]
+                sad: [ ]
+                sad-closed-eyes: [ ]
+                sad-looking-down: [ ]
+                sad2-closed-eyes: [ ]
+              id: 11
+              name: Asriel
+            undertale-chara:
+              aliases:
+                - chara
+                - undertale-extra-chara
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 13
+              name: Chara
+            undertale-dummy:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 133
+              name: Training Dummy
+            undertale-final-form-asriel:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                angry: [ ]
+                crying: [ ]
+                crying2: [ ]
+                default: [ ]
+                sad: [ ]
+                sad2: [ ]
+                sad3: [ ]
+                scared: [ ]
+                scary: [ ]
+              id: 185
+              name: Asriel (Final form)
+            undertale-flowey:
+              aliases:
+                - flowey
+              default_expr: default
+              expressions:
+                angry: [ ]
+                angry2: [ ]
+                asgore:
+                  - asgore-face
+                asgore-creepy:
+                  - creepy-asgore
+                  - creepy-asgore-face
+                asriel:
+                  - asriel-face
+                asriel-crying:
+                  - asriel-face-crying
+                  - crying-asriel
+                  - crying-asriel-face
+                closed-eyes: [ ]
+                cool: [ ]
+                crazy: [ ]
+                cute: [ ]
+                default: [ ]
+                disappointed: [ ]
+                empty: [ ]
+                evil: [ ]
+                frisk:
+                  - frisk-face
+                googly-eyes: [ ]
+                grin:
+                  - creepy-grin
+                hurt: [ ]
+                hurt2: [ ]
+                jaws: [ ]
+                laugh:
+                  - creepy-laugh
+                looking-away: [ ]
+                mad: [ ]
+                money: [ ]
+                raised-eyebrows:
+                  - funny
+                sad: [ ]
+                sad-closed-eyes: [ ]
+                sad-looking-away: [ ]
+                sad-looking-down: [ ]
+                sassy: [ ]
+                scared: [ ]
+                shocked: [ ]
+                shocked2: [ ]
+                skull: [ ]
+                sweat: [ ]
+                terrified: [ ]
+                toriel:
+                  - toriel-face
+                toriel-creepy:
+                  - creepy-toriel
+                  - creepy-toriel-face
+                wilted: [ ]
+                wilted-stand-up: [ ]
+                wink:
+                  - winking
+              id: 1
+              name: Flowey
+            undertale-frisk:
+              aliases:
+                - frisk
+                - undertale-extra-frisk
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 12
+              name: Frisk
+            undertale-gaster:
+              aliases:
+                - gaster
+                - undertale-extra-gaster
+                - undertale-extra-wd-gaster
+                - undertale-extra-wdgaster
+                - undertale-wd-gaster
+                - undertale-wdgaster
+                - wd-gaster
+                - wdgaster
+              default_expr: default
+              default_font: wingdings
+              expressions:
+                apathetic: [ ]
+                creepy: [ ]
+                default: [ ]
+                funny: [ ]
+                glowing-eyes: [ ]
+                sad: [ ]
+              id: 16
+              name: WD Gaster
+            undertale-grillby:
+              aliases:
+                - grillby
+                - undertale-extra-grillby
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 14
+              name: Grillby
+            undertale-hyperdeath-asriel:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                angry: [ ]
+                closed-eyes: [ ]
+                confident: [ ]
+                default: [ ]
+                menacing: [ ]
+                smug: [ ]
+                wink: [ ]
+              id: 184
+              name: Asriel (God of Hyperdeath)
+            undertale-maddummy:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+                hurt: [ ]
+                shocked: [ ]
+                sweat: [ ]
+              id: 187
+              name: Mad Dummy
+            undertale-mettaton:
+              aliases:
+                - mettaton
+                - mettaton-box
+                - mettatonbox
+                - mtt
+                - undertale-extra-mettaton
+                - undertale-extra-mettaton-box
+                - undertale-extra-mettatonbox
+                - undertale-extra-mtt
+                - undertale-extra-mtt-box
+                - undertale-extra-mttbox
+                - undertale-mettaton-box
+                - undertale-mettatonbox
+                - undertale-mtt
+                - undertale-mtt-box
+                - undertale-mttbox
+              default_expr: default
+              expressions:
+                default: [ ]
+                lowered-arms: [ ]
+                lowered-arms-black-screen: [ ]
+                microphone: [ ]
+                microphone-black-screen: [ ]
+                microphone-lowered-arm: [ ]
+                microphone-m: [ ]
+                microphone-number-1: [ ]
+                microphone-number-1-inverted: [ ]
+                news-reporter: [ ]
+                news-reporter-arms-down: [ ]
+                news-reporter-microphone: [ ]
+                news-reporter-oh-no: [ ]
+                news-reporter-papers: [ ]
+                news-reporter-raised-arm: [ ]
+                news-reporter-raised-arms: [ ]
+                news-reporter-raised-arms-black-screen: [ ]
+                oh-no: [ ]
+                switch-off: [ ]
+                switch-on: [ ]
+              id: 15
+              name: Mettaton
+            undertale-mettaton-ex:
+              aliases:
+                - mettaton-ex
+                - mettatonex
+                - mtt-ex
+                - mttex
+                - undertale-mettatonex
+                - undertale-mtt-ex
+                - undertale-mttex
+              default_expr: default
+              expressions:
+                angry: [ ]
+                angry-closed-eyes: [ ]
+                apathetic: [ ]
+                cat-mouth: [ ]
+                default: [ ]
+                evil: [ ]
+                evil-closed-eyes: [ ]
+                funny: [ ]
+                happy: [ ]
+                hit: [ ]
+                laugh: [ ]
+                looking-away: [ ]
+                open-mouth: [ ]
+                open-mouth2: [ ]
+                sad: [ ]
+                sad-smile: [ ]
+                sad2: [ ]
+                sassy: [ ]
+                tilted: [ ]
+                tongue-out: [ ]
+                tongue-out2: [ ]
+                unused1: [ ]
+                unused2: [ ]
+                unused3: [ ]
+              id: 9
+              name: Mettaton EX
+            undertale-mettaton-neo:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                closed-eyes: [ ]
+                confident: [ ]
+                default: [ ]
+                insane: [ ]
+                pissed: [ ]
+                sad: [ ]
+                serious: [ ]
+              id: 183
+              name: Mettaton NEO
+            undertale-monsterkid:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                angry: [ ]
+                default: [ ]
+                sad: [ ]
+                shocked: [ ]
+                terrified: [ ]
+                worried: [ ]
+              id: 186
+              name: Monster Kid
+            undertale-muffet:
+              aliases:
+                - muffet
+                - undertale-extra-muffet
+              default_expr: default
+              expressions:
+                angry: [ ]
+                default: [ ]
+                money: [ ]
+                spider: [ ]
+              id: 17
+              name: Muffet
+            undertale-napstablook:
+              aliases:
+                - blook
+                - blooky
+                - napsta
+                - undertale-extra-napsta
+                - undertale-extra-napstablook
+                - undertale-napsta
+              default_expr: default
+              expressions:
+                dapperblook: [ ]
+                default: [ ]
+                headset: [ ]
+                looking-away: [ ]
+              id: 3
+              name: Napstablook
+            undertale-omega-flowey:
+              aliases:
+                - omega-flowey
+                - omegaflowey
+                - undertale-extra-omega-flowey
+                - undertale-extra-omegaflowey
+                - undertale-omegaflowey
+              default_expr: default
+              expressions:
+                dark-screen: [ ]
+                default: [ ]
+                everyone: [ ]
+                flowey: [ ]
+                funny: [ ]
+                human: [ ]
+                looking-away: [ ]
+                monster: [ ]
+                smile: [ ]
+                spooky: [ ]
+                static: [ ]
+                trollface: [ ]
+              id: 18
+              name: Omega Flowey
+            undertale-papyrus:
+              aliases:
+                - paps
+                - papyrus
+                - undertale-paps
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                cool:
+                  - cool-dude
+                  - cool-glasses
+                  - glasses
+                  - glasses
+                  - sunglasses
+                cry:
+                  - crying
+                default: [ ]
+                evil:
+                  - couraged
+                googly-eyes:
+                  - shocked
+                  - surprised
+                laugh: [ ]
+                looking-away:
+                  - suspicious
+                mad:
+                  - angry
+                  - pissed
+                sweat:
+                  - sweating
+                worried:
+                  - dejected
+                  - sad
+              id: 5
+              name: Papyrus
+            undertale-sans:
+              aliases:
+                - sans
+              default_expr: default
+              default_font: sans
+              expressions:
+                black-eyes:
+                  - bad-time
+                bleeding-closed-eyes: [ ]
+                bleeding-confused: [ ]
+                bleeding-default: [ ]
+                bleeding-funny: [ ]
+                bleeding-looking-down: [ ]
+                bleeding-wink: [ ]
+                blue-eye:
+                  - glowing-eye
+                closed-eyes: [ ]
+                confused: [ ]
+                default: [ ]
+                funny: [ ]
+                hit: [ ]
+                looking-away: [ ]
+                looking-down: [ ]
+                semi-closed-eyes: [ ]
+                wink: [ ]
+                yellow-eye: [ ]
+              id: 4
+              name: Sans
+            undertale-temmie:
+              aliases:
+                - temmie
+                - undertale-extra-temmie
+              default_expr: default
+              expressions:
+                default: [ ]
+                hurt: [ ]
+                no-food: [ ]
+              id: 7
+              name: Temmie
+            undertale-toriel:
+              aliases:
+                - tori
+                - toriel
+                - undertale-tori
+              default_expr: default
+              expressions:
+                annoyed: [ ]
+                annoyed2: [ ]
+                blush: [ ]
+                closed-eyes: [ ]
+                closed-eyes-glasses:
+                  - glasses-closed-eyes
+                closed-eyes-happy: [ ]
+                closed-eyes-sad: [ ]
+                closed-eyes-sad-smile: [ ]
+                closed-eyes-sad2: [ ]
+                closed-eyes-sad3: [ ]
+                closed-eyes-sad4: [ ]
+                closed-eyes-sad5: [ ]
+                closed-eyes-sad6: [ ]
+                crazy: [ ]
+                crazy2: [ ]
+                crazy3: [ ]
+                default: [ ]
+                disbelief: [ ]
+                disbelief-looking-away: [ ]
+                glasses:
+                  - with-glasses
+                happy: [ ]
+                happy-glasses:
+                  - glasses-happy
+                hurt: [ ]
+                hurt-laughing: [ ]
+                incredulous: [ ]
+                incredulous-looking-away: [ ]
+                looking-away: [ ]
+                looking-away-glasses:
+                  - glasses-looking-away
+                pissed: [ ]
+                pissed-glasses:
+                  - angry-glasses
+                  - glasses-angry
+                  - glasses-mad
+                  - glasses-pissed
+                  - mad-glasses
+                sad: [ ]
+                sad-looking-away: [ ]
+                sad-looking-away2: [ ]
+                sad-smile: [ ]
+                semi-closed-eyes: [ ]
+                semi-closed-eyes-glasses:
+                  - glasses-semi-closed-eyes
+                semi-closed-eyes-happy:
+                  - nut
+                semi-closed-eyes-sad: [ ]
+                serious: [ ]
+                serious-looking-away: [ ]
+                serious-talking: [ ]
+                shocked: [ ]
+                surprised: [ ]
+                uhhh: [ ]
+                what: [ ]
+                what-funny: [ ]
+              id: 2
+              name: Toriel
+            undertale-undyne:
+              aliases:
+                - undyne
+              default_expr: default
+              expressions:
+                angry: [ ]
+                annoyed: [ ]
+                annoyed-looking-away: [ ]
+                blush: [ ]
+                default: [ ]
+                defeated: [ ]
+                disgusted: [ ]
+                funny: [ ]
+                happy: [ ]
+                happy-stained: [ ]
+                pissed: [ ]
+                sad-looking-away: [ ]
+                sad-looking-down: [ ]
+                surprised: [ ]
+                surprised-stained: [ ]
+                sweat: [ ]
+                what: [ ]
+              id: 6
+              name: Undyne
+            undertale-undyne-undying:
+              aliases:
+                - undertale-undyne-the-undying
+                - undertale-undynetheundying
+                - undertale-undyneundying
+                - undyne-the-undying
+                - undyne-undying
+                - undynetheundying
+                - undyneundying
+              default_expr: default
+              expressions:
+                default: [ ]
+                grin: [ ]
+                hurt: [ ]
+                laugh: [ ]
+                laugh2: [ ]
+                laugh3: [ ]
+                sad: [ ]
+                sad2: [ ]
+                sweat: [ ]
+                sweat-looking-away: [ ]
+                sweat2: [ ]
+              id: 189
+              name: Undyne the undying
+    deltarune:
+      name: "Deltarune"
+      takes:
+        deltarune:
+          name: "Deltarune"
+          characters:
+            deltarune-alphys:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                blush:
+                  - blushed
+                  - blushing
+                default: [ ]
+                excited: [ ]
+                looking-away: [ ]
+                smug: [ ]
+                surprised:
+                  - shocked
+                surprised2:
+                  - shocked2
+                sweat:
+                  - sweating
+                sweat2:
+                  - sweating2
+                sweat3:
+                  - sweating3
+                sweat4:
+                  - sweating4
+                sweat5:
+                  - sweating5
+                worried-looking-away:
+                  - looking-away-worried
+                  - worried
+                  - worried-looking-away
+              id: 143
+              name: Alphys
+            deltarune-asgore:
+              aliases:
+                - dr-asgore
+              default_expr: default
+              expressions:
+                angry: [ ]
+                default: [ ]
+                looking-away: [ ]
+                lowered-eyebrows: [ ]
+                shocked: [ ]
+                smile: [ ]
+                wink: [ ]
+                worried: [ ]
+                worried-looking-down: [ ]
+              id: 220
+              name: Asgore
+            deltarune-berdly:
+              aliases:
+                - berdly
+                - dr-berdly
+              default_expr: default
+              expressions:
+                angry: [ ]
+                angry-looking-down: [ ]
+                chef-kiss: [ ]
+                confused: [ ]
+                content: [ ]
+                default:
+                  - suspicious
+                funny: [ ]
+                funny2: [ ]
+                funny3: [ ]
+                handsome: [ ]
+                happy: [ ]
+                laugh:
+                  - derp
+                  - laughing
+                nervous:
+                  - sweat
+                  - sweating
+                pissed: [ ]
+                pissed-looking-away: [ ]
+                sad: [ ]
+                sad2: [ ]
+                sad3: [ ]
+                shocked: [ ]
+                smooch: [ ]
+                smug: [ ]
+                smug-smile: [ ]
+                struggling: [ ]
+                surprised: [ ]
+              id: 145
+              name: Berdly
+            deltarune-berdly-dw:
+              aliases:
+                - berdly-darkworld
+                - berdly-dw
+                - deltarune-berdly-darkworld
+                - dr-berdly-darkworld
+                - dr-berdly-dw
+              default_expr: default
+              expressions:
+                angry: [ ]
+                angry-looking-down: [ ]
+                chef-kiss: [ ]
+                confused: [ ]
+                content: [ ]
+                default: [ ]
+                funny: [ ]
+                funny2: [ ]
+                funny3: [ ]
+                handsome: [ ]
+                happy: [ ]
+                laugh: [ ]
+                nervous: [ ]
+                pissed: [ ]
+                pissed-looking-away: [ ]
+                sad: [ ]
+                sad2: [ ]
+                sad3: [ ]
+                shocked: [ ]
+                smooch: [ ]
+                smug: [ ]
+                smug-smile: [ ]
+                struggling: [ ]
+                surprised: [ ]
+              id: 219
+              name: Berdly (Dark World)
+            deltarune-bratty:
+              aliases:
+                - dr-bratty
+              default_expr: default
+              expressions:
+                annoyed: [ ]
+                default: [ ]
+                serious: [ ]
+                shocked: [ ]
+                smug: [ ]
+                tongue-out: [ ]
+                tongue-out2: [ ]
+              id: 225
+              name: Bratty
+            deltarune-catti:
+              aliases:
+                - catti
+                - dr-catti
+              default_expr: default
+              expressions:
+                default: [ ]
+                looking-down: [ ]
+                talking: [ ]
+              id: 147
+              name: Catti
+            deltarune-catty:
+              aliases:
+                - dr-catty
+              default_expr: default
+              expressions:
+                default: [ ]
+                happy: [ ]
+                heart-eyes: [ ]
+                laugh: [ ]
+                laugh2: [ ]
+                laugh3: [ ]
+                serious: [ ]
+                shocked: [ ]
+                tongue-out: [ ]
+              id: 224
+              name: Catty
+            deltarune-chaosking:
+              aliases:
+                - chaos-king
+                - chaosking
+                - deltarune-chaos-king
+                - deltarune-king
+                - dr-king
+                - king
+              default_expr: default_colored
+              expressions:
+                angry: [ ]
+                angry2: [ ]
+                angry3: [ ]
+                asleep:
+                  - defeated-asleep
+                  - defeated-sleeping
+                  - sleep
+                  - sleeping
+                default: [ ]
+                defeated:
+                  - tired
+                defeated-looking-down:
+                  - defeated-sad
+                  - defeated-tired
+                  - looking-down
+                  - sad
+                  - tired-looking-down
+                  - tired-sad
+                defeated-smile:
+                  - defeated-smiling
+                  - smile
+                  - smiling
+                  - tired-smile
+                  - tired-smiling
+                pissed: [ ]
+                pissed2: [ ]
+                shocked: [ ]
+                surprised: [ ]
+                tongue-out: [ ]
+              id: 158
+              name: Chaos King
+            deltarune-darkprince:
+              aliases:
+                - dark-prince
+                - darkprince
+                - deltarune-dark-prince
+              default_expr: default_colored
+              expressions: { }
+              id: 153
+              name: Dark Prince
+            deltarune-jevil:
+              aliases:
+                - jevil
+              default_expr: default_colored
+              expressions:
+                default: [ ]
+                derp: [ ]
+                insane: [ ]
+                laugh: [ ]
+                serious: [ ]
+              id: 159
+              name: Jevil
+            deltarune-jockington:
+              aliases:
+                - dr-jockington
+                - jockington
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 149
+              name: Jockington
+            deltarune-kris:
+              aliases:
+                - kris
+              default_expr: default
+              expressions:
+                default: [ ]
+                grin: [ ]
+                looking-down: [ ]
+                mad: [ ]
+                possessed: [ ]
+                possessed2: [ ]
+                sad: [ ]
+                smile: [ ]
+                smirk: [ ]
+                surprised: [ ]
+                sweat: [ ]
+              id: 140
+              name: Kris
+            deltarune-kris-dw:
+              aliases:
+                - dr-kris-dw
+                - kris-darkworld
+                - kris-dw
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 142
+              name: Kris (Dark World)
+            deltarune-lancer:
+              aliases:
+                - lancer
+              default_expr: default_colored
+              expressions:
+                ashamed:
+                  - sweat
+                  - sweating
+                default: [ ]
+                disappointed: [ ]
+                disguised: [ ]
+                disguised-surprised:
+                  - disguised2
+                evil:
+                  - evil-smile
+                grin:
+                  - grinning
+                handsome:
+                  - cursed
+                  - derp
+                  - god
+                sad: [ ]
+                sad-looking-up: [ ]
+                sad2: [ ]
+                serious: [ ]
+                smile:
+                  - smiling
+                surprised:
+                  - surprise
+                tongue-out: [ ]
+              id: 155
+              name: Lancer
+            deltarune-noelle:
+              aliases:
+                - dr-noelle
+                - noelle
+              default_expr: default
+              expressions:
+                angry: [ ]
+                angry-closed-eyes: [ ]
+                angry2: [ ]
+                blush:
+                  - blushed
+                  - blushing
+                couraged: [ ]
+                couraged-blush: [ ]
+                default: [ ]
+                freaking-out: [ ]
+                laugh:
+                  - confident
+                  - happy2
+                  - laughing
+                  - smile-confident
+                  - smiling-confident
+                nervous: [ ]
+                nervous-confused: [ ]
+                nervous-excited: [ ]
+                nervous-looking-away: [ ]
+                nervous-looking-away2: [ ]
+                nervous-smile: [ ]
+                nervous-smile2: [ ]
+                sad: [ ]
+                sad-looking-down: [ ]
+                scared: [ ]
+                scared2: [ ]
+                scared3: [ ]
+                scared4: [ ]
+                scared5: [ ]
+                scared6: [ ]
+                serious: [ ]
+                serious-looking-away: [ ]
+                shocked: [ ]
+                shocked-looking-away:
+                  - looking-away-scared
+                  - looking-away-shocked
+                  - looking-away-surprised
+                  - scrared-looking-away
+                  - surprised-looking-away
+                shy: [ ]
+                smile:
+                  - happy
+                  - smiling
+                speechless: [ ]
+                speechless2: [ ]
+                speechless3: [ ]
+                speechless4: [ ]
+                worried: [ ]
+                worried-closed-eyes: [ ]
+                worried-closed-eyes2: [ ]
+                worried2: [ ]
+                worried3: [ ]
+                worried4: [ ]
+              id: 144
+              name: Noelle
+            deltarune-noelle-dw:
+              aliases:
+                - dr-noelle-dw
+                - noelle-dw
+              default_expr: default_colored
+              expressions:
+                angry: [ ]
+                angry-closed-eyes: [ ]
+                angry2: [ ]
+                blush: [ ]
+                couraged: [ ]
+                couraged-blush: [ ]
+                default: [ ]
+                freaking-out: [ ]
+                laugh: [ ]
+                nervous: [ ]
+                nervous-confused: [ ]
+                nervous-excited: [ ]
+                nervous-looking-away: [ ]
+                nervous-looking-away2: [ ]
+                nervous-smile: [ ]
+                nervous-smile2: [ ]
+                sad: [ ]
+                sad-looking-down: [ ]
+                scared: [ ]
+                scared2: [ ]
+                scared3: [ ]
+                scared4: [ ]
+                scared5: [ ]
+                scared6: [ ]
+                serious: [ ]
+                serious-looking-away: [ ]
+                shocked: [ ]
+                shocked-looking-away: [ ]
+                shy: [ ]
+                smile: [ ]
+                speechless: [ ]
+                speechless2: [ ]
+                speechless3: [ ]
+                speechless4: [ ]
+                worried: [ ]
+                worried-closed-eyes: [ ]
+                worried-closed-eyes2: [ ]
+                worried2: [ ]
+                worried3: [ ]
+                worried4: [ ]
+              id: 227
+              name: Noelle (Dark World)
+            deltarune-pizzapants:
+              aliases:
+                - deltarune-burgerpants
+                - dr-burgerpants
+                - dr-pizzapants
+                - pizzapants
+              default_expr: default
+              expressions:
+                creepy: [ ]
+                default: [ ]
+                face-down: [ ]
+                face-up: [ ]
+                pleased: [ ]
+                shocked: [ ]
+                smog: [ ]
+                smug: [ ]
+                worried: [ ]
+              id: 223
+              name: Pizzapants
+            deltarune-queen:
+              aliases:
+                - deltarune-Q5U4EX7YY2E9N
+                - dr-Q5U4EX7YY2E9N
+                - dr-queen
+                - Q5U4EX7YY2E9N
+                - queen
+              default_expr: default_colored
+              expressions:
+                angry: [ ]
+                bro: [ ]
+                bro-jp: [ ]
+                confused: [ ]
+                default: [ ]
+                defeated: [ ]
+                evil: [ ]
+                grin: [ ]
+                haha: [ ]
+                hate: [ ]
+                idk: [ ]
+                idk-jp: [ ]
+                laugh: [ ]
+                lmao: [ ]
+                looking-down: [ ]
+                looking-left: [ ]
+                looking-right: [ ]
+                lying: [ ]
+                lying-jp: [ ]
+                menacing: [ ]
+                nice: [ ]
+                nice-jp: [ ]
+                question-marks: [ ]
+                sad-smile: [ ]
+                shocked: [ ]
+                shocked2: [ ]
+                'true': [ ]
+                true-jp: [ ]
+                unamused: [ ]
+                unamused2: [ ]
+                unamused3: [ ]
+                www: [ ]
+              id: 217
+              name: Queen
+            deltarune-ralsei:
+              aliases:
+                - no-hat-ralsei
+                - nohatralsei
+                - true-ralsei
+                - trueralsei
+              default_expr: default_colored
+              expressions:
+                angry: [ ]
+                angry-looking-away: [ ]
+                angry-looking-away2: [ ]
+                angry2: [ ]
+                blush:
+                  - blushed
+                  - blushing
+                blush-looking-down: [ ]
+                blush-surprised: [ ]
+                concerned: [ ]
+                concerned2: [ ]
+                concerned3: [ ]
+                default: [ ]
+                disbelief: [ ]
+                excited: [ ]
+                excited2: [ ]
+                happy:
+                  - grin
+                  - grinning
+                looking-away: [ ]
+                looking-down: [ ]
+                no-glasses: [ ]
+                raised-eyebrows: [ ]
+                relieved: [ ]
+                sad: [ ]
+                sad-looking-away: [ ]
+                sad-looking-down: [ ]
+                screaming: [ ]
+                serious: [ ]
+                shadow: [ ]
+                shocked: [ ]
+                smiling:
+                  - smile
+                surprised: [ ]
+                surprised-looking-away: [ ]
+                surprised2: [ ]
+                surprised3: [ ]
+                uninterested: [ ]
+                winking: [ ]
+              id: 156
+              name: Ralsei
+            deltarune-ralseidisguise:
+              aliases:
+                - ralsei
+              default_expr: default_colored
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                cloak: [ ]
+                cloak-sweat: [ ]
+                default: [ ]
+                derp: [ ]
+                disappointed:
+                  - serious
+                  - tired
+                  - weary
+                expressionless: [ ]
+                happy:
+                  - grin
+                  - grinning
+                looking-down: [ ]
+                looking-down-blush:
+                  - blush-looking-down
+                  - blushed-looking-down
+                  - blushing-looking-down
+                  - looking-down-blushed
+                  - looking-down-blushing
+                sad:
+                  - looking-down-sad
+                  - sad-looking-down
+                shocked:
+                  - surprised
+                smile:
+                  - sad-smile
+                  - smiling
+                smile-blush:
+                  - blush-smile
+                  - smile-blushed
+                  - smile-blushing
+                  - smiling-blush
+                  - smiling-blushed
+                  - smiling-blushing
+                smile-looking-down:
+                  - looking-down-sad-smile
+                  - looking-down-smile
+                  - looking-down-smiling
+                  - sad-smile-looking-down
+                  - smiling-looking-down
+              id: 154
+              name: Ralsei (disguise)
+            deltarune-rouxlskaard:
+              aliases:
+                - deltarune-rouxls
+                - deltarune-rouxls-kaard
+                - rouxls
+                - rouxls-kaard
+                - rouxlskaard
+              default_expr: default_colored
+              expressions:
+                closed-eyes: [ ]
+                default: [ ]
+                open-mouth: [ ]
+                pirate: [ ]
+                pirate-closed-eyes: [ ]
+                pirate-open-mouth: [ ]
+                pirate-shocked: [ ]
+                pirate-shocked-looking-away: [ ]
+                pirate-shocked-open-mouth: [ ]
+                pirate-shocked-smile: [ ]
+                pirate-smile: [ ]
+                pirate-wink: [ ]
+                shocked:
+                  - surprised
+                shocked-looking-away:
+                  - shocked2
+                  - surprised-looking-away
+                  - surprised2
+                shocked-open-mouth: [ ]
+                shocked-smile:
+                  - shocked3
+                  - smile-shocked
+                  - smile-surprised
+                  - smiling-shocked
+                  - smiling-surprised
+                  - surprised-smile
+                smile:
+                  - smiling
+                wink:
+                  - winking
+              id: 157
+              name: Rouxls Kaard
+            deltarune-rudy:
+              aliases:
+                - dr-rudy
+                - rudy
+              default_expr: default
+              expressions:
+                angry: [ ]
+                default: [ ]
+                grin: [ ]
+                happy: [ ]
+                sad: [ ]
+                serious: [ ]
+                wink: [ ]
+                worried: [ ]
+              id: 222
+              name: Rudy
+            deltarune-spamton:
+              aliases:
+                - spamton
+                - spamton-g-spamton
+              default_expr: default_colored
+              expressions:
+                blank: [ ]
+                default: [ ]
+                glitch: [ ]
+                laugh: [ ]
+                open-mouth: [ ]
+                shadow: [ ]
+                stare: [ ]
+                static: [ ]
+              id: 226
+              name: Spamton G. Spamton
+            deltarune-susie:
+              aliases:
+                - deltarune-susan
+                - dr-susan
+                - dr-susie
+                - susan
+                - susie
+              default_expr: hidden-eyes
+              expressions:
+                angry: [ ]
+                angry2: [ ]
+                angry3: [ ]
+                blush: [ ]
+                confused: [ ]
+                confused-sweat: [ ]
+                confused2: [ ]
+                content: [ ]
+                default: [ ]
+                disappointed: [ ]
+                drooling: [ ]
+                glasses: [ ]
+                grin: [ ]
+                happy: [ ]
+                hidden-eyes: [ ]
+                hidden-eyes-drooling:
+                  - creepy2
+                hidden-eyes-grin:
+                  - hidden-eyes-grinning
+                  - smiling2
+                hidden-eyes-proud: [ ]
+                hidden-eyes-regretful: [ ]
+                hidden-eyes-regretful2: [ ]
+                hidden-eyes-smile:
+                  - smiling
+                hidden-eyes-smile2: [ ]
+                hiden-eyes-drooling2: [ ]
+                incredulous: [ ]
+                looking-back: [ ]
+                looking-back2: [ ]
+                looking-down: [ ]
+                pissed: [ ]
+                pissed2: [ ]
+                proud: [ ]
+                relieved: [ ]
+                scared: [ ]
+                scared2: [ ]
+                scary:
+                  - creepy
+                scary-laugh: [ ]
+                scary-laugh2: [ ]
+                scary-surprised: [ ]
+                scary-sweat: [ ]
+                serious: [ ]
+                shocked-sweat:
+                  - sweating
+                shocked-sweat2:
+                  - sweating2
+                smile-sweat: [ ]
+                stare: [ ]
+                stare-sweat: [ ]
+                surprised: [ ]
+                surprised-smile: [ ]
+                sushi: [ ]
+                suspicious: [ ]
+                suspicious-looking-away: [ ]
+                sweat:
+                  - hidden-eyes-sweating
+                  - sweat-hidden-eyes
+                  - sweating-hidden-eyes
+                worried: [ ]
+              id: 151
+              name: Susie
+            deltarune-susie-dw:
+              aliases:
+                - dr-susan-darkworld
+                - dr-susan-dw
+                - dr-susie-darkworld
+                - dr-susie-dw
+                - susan-darkworld
+                - susan-dw
+                - susie-darkworld
+                - susie-dw
+              default_expr: hidden-eyes_colored
+              expressions:
+                angry: [ ]
+                angry2: [ ]
+                angry3: [ ]
+                blush: [ ]
+                confused: [ ]
+                confused-sweat: [ ]
+                confused2: [ ]
+                content: [ ]
+                default: [ ]
+                disappointed: [ ]
+                drooling: [ ]
+                glasses: [ ]
+                grin: [ ]
+                happy: [ ]
+                hidden-eyes: [ ]
+                hidden-eyes-drooling: [ ]
+                hidden-eyes-grin: [ ]
+                hidden-eyes-proud: [ ]
+                hidden-eyes-regretful: [ ]
+                hidden-eyes-regretful2: [ ]
+                hidden-eyes-smile: [ ]
+                hidden-eyes-smile2: [ ]
+                hiden-eyes-drooling2: [ ]
+                incredulous: [ ]
+                looking-back: [ ]
+                looking-back2: [ ]
+                looking-down: [ ]
+                pissed: [ ]
+                pissed2: [ ]
+                proud: [ ]
+                relieved: [ ]
+                scared: [ ]
+                scared2: [ ]
+                scary: [ ]
+                scary-laugh: [ ]
+                scary-laugh2: [ ]
+                scary-surprised: [ ]
+                scary-sweat: [ ]
+                serious: [ ]
+                shocked-sweat: [ ]
+                shocked-sweat2: [ ]
+                smile-sweat: [ ]
+                stare: [ ]
+                stare-sweat: [ ]
+                surprised: [ ]
+                surprised-smile: [ ]
+                sushi: [ ]
+                suspicious: [ ]
+                suspicious-looking-away: [ ]
+                sweat: [ ]
+                worried: [ ]
+              id: 152
+              name: Susie (Dark World)
+            deltarune-toriel:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                angry-looking-away:
+                  - looking-away-angry
+                  - looking-away-mad
+                  - mad-looking-away
+                blush:
+                  - blushed
+                  - blushing
+                  - embarassed
+                default: [ ]
+                glasses: [ ]
+                glasses-angry:
+                  - angry-glasses
+                  - glasses-mad
+                  - mad-glasses
+                glasses-angry-looking-away:
+                  - angry-glasses-looking-away
+                  - angry-looking-away-glasses
+                  - glasses-looking-away-angry
+                  - glasses-looking-away-mad
+                  - glasses-mad-looking-away
+                  - mad-glasses-looking-away
+                  - mad-looking-away-glasses
+                glasses-blush:
+                  - blush-glasses
+                  - blushed-glasses
+                  - blushing-glasses
+                  - embarassed-glasses
+                  - glasses-blushed
+                  - glasses-blushing
+                  - glasses-embarassed
+                glasses-happy:
+                  - happy-glasses
+                glasses-hopeful:
+                  - glasses-sad-smile
+                  - sad-smile-glasses
+                glasses-incredulous:
+                  - glasses-shocked
+                  - incredulous-glasses
+                  - shocked-glasses
+                glasses-looking-away:
+                  - looking-away-glasses
+                glasses-pissed:
+                  - glasses-looking-away-pissed
+                  - pissed-glasses-looking-away
+                  - pissed-looking-away-glasses
+                glasses-surprised:
+                  - surprised-glasses
+                happy: [ ]
+                hopeful:
+                  - sad-smile
+                incredulous:
+                  - shocked
+                looking-away: [ ]
+                pissed: [ ]
+                surprised: [ ]
+              id: 141
+              name: Toriel
+            deltarune-undyne:
+              aliases:
+                - dr-undyne
+              default_expr: default
+              expressions:
+                annoyed: [ ]
+                default: [ ]
+                funny: [ ]
+                happy: [ ]
+                serious: [ ]
+                wink: [ ]
+              id: 160
+              name: Undyne
+        foursuits:
+          name: "Four Suits"
+          characters:
+            foursuits-clyde:
+              aliases:
+                - clyde
+                - deltarune-clyde
+              default_expr: default_colored
+              expressions:
+                confident: [ ]
+                default: [ ]
+                mad: [ ]
+                pain: [ ]
+                pissed: [ ]
+                shocked: [ ]
+              id: 193
+              name: Clyde
+            foursuits-lori:
+              aliases:
+                - deltarune-lori
+                - lori
+              default_expr: default_colored
+              expressions:
+                annoyed: [ ]
+                default: [ ]
+                evil: [ ]
+                grin: [ ]
+                laugh: [ ]
+              id: 195
+              name: Lori
+            foursuits-rhombo:
+              aliases:
+                - deltarune-rhombo
+                - rhombo
+              default_expr: default_colored
+              expressions:
+                angry: [ ]
+                annoyed: [ ]
+                confident: [ ]
+                default: [ ]
+                scared: [ ]
+              id: 196
+              name: Rhombo
+    underswap:
+      name: "Underswap"
+      takes:
+        underswap:
+          name: "Underswap+"
+          characters:
+            underswap-papyrus:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                chuckle:
+                  - funny
+                  - laugh
+                confused:
+                  - shocked
+                default: [ ]
+                disguised:
+                  - disguise
+                  - glasses
+                  - mask
+                  - moustache
+                looking-away:
+                  - looking-left
+                raised-eyebrow: [ ]
+                serious:
+                  - angry
+                  - mad
+                  - pissed
+              id: 138
+              name: Papyrus
+            underswap-sans:
+              aliases: [ ]
+              default_expr: default
+              default_font: sans
+              expressions:
+                couraged:
+                  - angry
+                  - evil
+                  - mad
+                default: [ ]
+                happy:
+                  - funny
+                in-love:
+                  - heart-eyes
+                  - love
+                in-love2:
+                  - heart-eyes2
+                  - love2
+                open-mouth:
+                  - happy2
+                  - talking
+                surprised:
+                  - shocked
+                  - sweat
+                  - sweating
+                suspicious:
+                  - looking-away
+                  - looking-left
+                winking:
+                  - wink
+              id: 137
+              name: Sans
+        tsunderswap:
+          name: "Team Switched Underswap"
+          characters:
+            tsunderswap-asgore:
+              aliases:
+                - tsus-asgore
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                annoyed:
+                  - pissed
+                closed-eyes: [ ]
+                confused: [ ]
+                crying:
+                  - cry
+                  - tears
+                default: [ ]
+                happy: [ ]
+                hopeful: [ ]
+                hopeful2: [ ]
+                hurt:
+                  - damaged
+                  - dead
+                  - kill
+                  - killed
+                joy:
+                  - joyful
+                laugh: [ ]
+                looking-left:
+                  - looking-away2
+                looking-right:
+                  - looking-away
+                nervous:
+                  - shocked
+                nervous-looking-left: [ ]
+                nervous-looking-right: [ ]
+                relieved: [ ]
+                sad: [ ]
+                sad-closed-eyes: [ ]
+                sad-looking-away: [ ]
+                sad-smile: [ ]
+                shocked: [ ]
+                surprised: [ ]
+                wink: [ ]
+              id: 30
+              name: Asgore
+            tsunderswap-crossbones:
+              aliases:
+                - crossbones
+                - sans-man
+                - sansman
+                - super-sans
+                - supersans
+                - ts-crossbones
+                - tsunderswap-super-sans
+                - tsunderswap-supersans
+                - tsus-super-sans
+                - tsus-supersans
+              default_expr: default
+              default_font: sans
+              expressions:
+                backwards-mask: [ ]
+                black-eyes: [ ]
+                black-eyes-displeased: [ ]
+                black-eyes-funny: [ ]
+                black-eyes-sweat:
+                  - black-eyes-sweating
+                  - black-eyes-worried
+                black-eyes-wink: [ ]
+                closed-eyes: [ ]
+                closed-eyes-serious: [ ]
+                concerned:
+                  - worried
+                concerned2: [ ]
+                confused: [ ]
+                default: [ ]
+                funny: [ ]
+                funny-looking-away: [ ]
+                funny-looking-up: [ ]
+                funny-smug:
+                  - smug-funny
+                heroic:
+                  - couraged
+                  - evil
+                looking-away: [ ]
+                looking-down: [ ]
+                looking-up: [ ]
+                semi-closed-eyes:
+                  - suspicious
+                shocked: [ ]
+                skeptical: [ ]
+                skeptical2: [ ]
+                smug: [ ]
+                surprised: [ ]
+                sweat:
+                  - sweating
+                  - worried
+                sweat2:
+                  - sweating2
+                  - worried2
+                weary:
+                  - tired
+                weary2:
+                  - tired2
+                wink:
+                  - winking
+                wink-looking-away:
+                  - looking-away-wink
+                  - looking-away-winking
+                  - winking-looking-away
+              id: 34
+              name: Crossbones
+            tsunderswap-koffink:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                confused:
+                  - raised-eyebrow
+                confused2:
+                  - raised-eyebrow2
+                default: [ ]
+                looking-away: [ ]
+                mad:
+                  - angry
+                pissed: [ ]
+                sad: [ ]
+                shocked:
+                  - surprised
+                shocked-looking-away:
+                  - surprised-looking-away
+                smug: [ ]
+              id: 139
+              name: Koffin K
+            tsunderswap-mad-dummy:
+              aliases:
+                - tsunderswap-maddummy
+                - tsus-mad-dummy
+                - tsus-maddummy
+              default_expr: default
+              expressions:
+                default:
+                  - angry
+                  - mad
+                dummy: [ ]
+                evil:
+                  - villain
+                evil-laugh:
+                  - evil-laughing
+                  - villain-laugh
+                  - villain-laughing
+                evil-laugh2:
+                  - evil-laughing2
+                  - villain-laugh2
+                  - villain-laughing2
+                evil-looking-away:
+                  - villain-looking-away
+                evil-mad:
+                  - evil-angry
+                  - evil-pissed
+                  - villain-angry
+                  - villain-mad
+                  - villain-pissed
+                evil-shocked:
+                  - evil-shock
+                  - villain-shock
+                  - villain-shocked
+                evil-shocked2:
+                  - evil-shock2
+                  - villain-shock2
+                  - villain-shocked2
+                evil-surprised:
+                  - villain-surprised
+                glad: [ ]
+                laugh: [ ]
+                laugh2: [ ]
+                looking-away: [ ]
+                looking-away2: [ ]
+                pissed: [ ]
+                shadow: [ ]
+                shocked:
+                  - shock
+                smirk: [ ]
+                surprised: [ ]
+                sweat:
+                  - sweating
+                sweat-looking-away:
+                  - sweating-looking-away
+                sweat-looking-away2:
+                  - sweating-looking-away2
+                sweat-looking-away3:
+                  - sweating-looking-away3
+                tired: [ ]
+              id: 31
+              name: Mad Dummy
+            tsunderswap-mettacrit:
+              aliases:
+                - mettacrit
+                - tsunderswap-happstablook
+                - tsunderswap-mettablook
+                - tsunderswap-mettaton
+                - tsus-happsta
+                - tsus-happstablook
+                - tsus-metta
+                - tsus-mettablook
+                - tsus-mettacrit
+                - tsus-mettaton
+              default_expr: default
+              expressions:
+                confident:
+                  - evil
+                confused: [ ]
+                default: [ ]
+                dramatic: [ ]
+                happy: [ ]
+                hopeful: [ ]
+                laugh:
+                  - laughing
+                love:
+                  - in-love
+                mad:
+                  - angry
+                  - pissed
+                mrow:
+                  - cat
+                  - meow
+                nervous: [ ]
+                playful: [ ]
+                sad: [ ]
+                sad-closed-eyes: [ ]
+                sad-looking-away: [ ]
+                smirk: [ ]
+                smoochy:
+                  - kiss
+                smug: [ ]
+                surprised:
+                  - shocked
+                tease:
+                  - teasing
+                tense: [ ]
+                unamused: [ ]
+                what: [ ]
+              id: 32
+              name: Mettacrit
+            tsunderswap-papyrus:
+              aliases:
+                - tsunderswap-paps
+                - tsus-paps
+                - tsus-papyrus
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                chuckle: [ ]
+                confident: [ ]
+                confident2: [ ]
+                cool:
+                  - cool-dude
+                  - cool-glasses
+                  - glasses
+                  - sunglasses
+                cry:
+                  - crying
+                default: [ ]
+                dejected: [ ]
+                googly-eyes: [ ]
+                happy: [ ]
+                laugh:
+                  - laughing
+                mad:
+                  - angry
+                panic: [ ]
+                pissed: [ ]
+                pissed2: [ ]
+                relieved: [ ]
+                shocked: [ ]
+                surprised: [ ]
+                suspicious: [ ]
+                suspicious-looking-away: [ ]
+                suspicious-looking-away2: [ ]
+                sweat: [ ]
+              id: 33
+              name: Papyrus
+            tsunderswap-sans:
+              aliases:
+                - tsus-sans
+              default_expr: default
+              default_font: sans
+              expressions:
+                black-eyes: [ ]
+                black-eyes-displeased: [ ]
+                black-eyes-frustrated: [ ]
+                black-eyes-funny: [ ]
+                black-eyes-winking: [ ]
+                closed-eyes: [ ]
+                confident:
+                  - tired
+                default: [ ]
+                displeased: [ ]
+                displeased2: [ ]
+                epic-funny: [ ]
+                epic-lazy: [ ]
+                funny:
+                  - chuckle
+                funny-looking-away:
+                  - funny-looking-left
+                funny-looking-up: [ ]
+                funny-smug: [ ]
+                heroic:
+                  - couraged
+                  - evil
+                looking-away:
+                  - looking-left
+                looking-away2: [ ]
+                looking-down: [ ]
+                looking-up: [ ]
+                raised-eyebrow:
+                  - suspicious
+                sad: [ ]
+                sad2: [ ]
+                semi-closed-eyes: [ ]
+                shocked: [ ]
+                smug: [ ]
+                surprised: [ ]
+                sweat:
+                  - nervous
+                  - sweating
+                sweat2:
+                  - nervous2
+                  - sweating2
+                weary: [ ]
+                weary2: [ ]
+                what: [ ]
+                wink-looking-away: [ ]
+                winking:
+                  - wink
+              id: 136
+              name: Sans
+            tsunderswap-spep:
+              aliases:
+                - god
+                - jesus
+                - spep
+                - tsus-spep
+              default_expr: default
+              expressions:
+                blue:
+                  - blue-eye
+                  - glowing-eye
+                  - spep-blue
+                default: [ ]
+              id: 38
+              name: Spep
+            tsunderswap-temmie:
+              aliases:
+                - tsus-temmie
+              default_expr: default
+              expressions:
+                angry: [ ]
+                annoyed: [ ]
+                chuckle: [ ]
+                confused: [ ]
+                confused-looking-away: [ ]
+                confused-nervous: [ ]
+                ded: [ ]
+                default: [ ]
+                derp: [ ]
+                e: [ ]
+                googly-eyes: [ ]
+                happy: [ ]
+                laugh: [ ]
+                nervous: [ ]
+                puzzled: [ ]
+                sad: [ ]
+                serious: [ ]
+                serious-looking-away: [ ]
+                smirk: [ ]
+                smug: [ ]
+                thinking: [ ]
+                wink: [ ]
+                worried: [ ]
+              id: 29
+              name: Temmie
+        fanonswap:
+          name: "Fanon Underswap"
+          characters:
+            fanonswap-blueberry:
+              aliases:
+                - blueberry
+                - underswap-blueberry
+                - us-blueberry
+              default_expr: default
+              default_font: sans
+              expressions:
+                angry:
+                  - mad
+                blush:
+                  - blushing
+                couraged:
+                  - evil
+                crying:
+                  - cry
+                crying2:
+                  - cry2
+                default: [ ]
+                open-mouth: [ ]
+                pissed: [ ]
+                sad: [ ]
+                sad-closed-eyes: [ ]
+                shocked: [ ]
+                smile:
+                  - smiling
+                star-eyes: [ ]
+                star-eyes-surprised: [ ]
+              id: 39
+              name: Blueberry
+            fanonswap-carrot:
+              aliases:
+                - carrot
+                - underswap-carrot
+                - us-carrot
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                angry:
+                  - mad
+                  - mad
+                  - pissed
+                closed-eyes: [ ]
+                default: [ ]
+                funny: [ ]
+                high: [ ]
+                incredulous: [ ]
+                looking-away: [ ]
+                orange-eye:
+                  - glowing-eye
+                scary:
+                  - spooky
+                wink:
+                  - winking
+              id: 40
+              name: Carrot
+        a2eunderswap:
+          name: "A2E Underswap"
+          characters:
+            a2eunderswap-papyrus:
+              aliases:
+                - a2e-papyrus
+                - a2eswap-paps
+                - a2eswap-papyrus
+                - a2eunderswap-paps
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                closed-eyes: [ ]
+                default: [ ]
+                intimidating:
+                  - glowing-eyes
+                  - scary
+                  - spooky
+                suspicious:
+                  - looking-away
+                wink:
+                  - winking
+              id: 22
+              name: Papyrus
+            a2eunderswap-sans:
+              aliases: [ ]
+              default_expr: default
+              default_font: sans
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                cool:
+                  - cool-dude
+                  - cool-glasses
+                  - glasses
+                crying:
+                  - cry
+                default: [ ]
+                evil:
+                  - couraged
+                funny: [ ]
+                googly-eyes: [ ]
+                sad: [ ]
+                suspicious:
+                  - looking-away
+                sweat:
+                  - nervous
+                  - sweating
+              id: 24
+              name: Sans
+        kalinswap:
+          name: "Kalin Underswap"
+          characters:
+            kalinswap-asgore:
+              aliases:
+                - canonswap-asgore
+                - swap-asgore
+                - us-asgore
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 20
+              name: Asgore
+            kalinswap-flowey:
+              aliases:
+                - floe
+                - flowery
+                - underswap-floe
+                - underswap-flowery
+                - us-floe
+                - us-flowery
+                - us-flowey
+              default_expr: default
+              expressions:
+                chara:
+                  - human
+                  - smile
+                  - smiling
+                default: [ ]
+                disappointed:
+                  - shocked
+                  - surprised
+                evil: [ ]
+                funny: [ ]
+                laugh:
+                  - sad-smile
+                looking-away: [ ]
+                sad: [ ]
+                sassy: [ ]
+                scared: [ ]
+                scared2:
+                  - terrified
+                serious: [ ]
+                wink:
+                  - winking
+              id: 98
+              name: Flowey
+            kalinswap-napstaton-ex:
+              aliases:
+                - swap-napstablook
+                - swap-napstaton-ex
+                - swap-napstatonex
+                - swap-ntb-ex
+                - swap-ntt-ex
+                - underswap-napstablook
+                - underswap-napstabot-ex
+                - underswap-napstabotex
+                - underswap-napstatonex
+                - underswap-ntb-ex
+                - underswap-ntbex
+                - underswap-ntt-ex
+                - underswap-nttex
+                - us-napstablook
+                - us-napstabotex
+                - us-napstaton-ex
+                - us-napstatonex
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 27
+              name: Napstaton EX
+            kalinswap-papyrus:
+              aliases:
+                - canonswap-paps
+                - canonswap-papyrus
+                - kalinswap-paps
+                - kalinswap-papyrus
+                - kunderswap-paps
+                - kunderswap-papyrus
+                - kus-sans
+                - underswap-paps
+                - us-paps
+                - us-papyrus
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                confused: [ ]
+                confused-looking-left: [ ]
+                confused-looking-right: [ ]
+                crying: [ ]
+                default: [ ]
+                default2:
+                  - funny
+                disguised: [ ]
+                evil:
+                  - couraged
+                googly-eyes: [ ]
+                happy: [ ]
+                happy-looking-left: [ ]
+                happy-looking-left2: [ ]
+                happy-looking-right: [ ]
+                happy-looking-right2: [ ]
+                intimidating:
+                  - scary
+                  - spooky
+                looking-left:
+                  - suspicious
+                looking-left2: [ ]
+                looking-right: [ ]
+                looking-right2: [ ]
+                mad:
+                  - angry
+                pissed: [ ]
+                raised-eyebrow: [ ]
+                regretful: [ ]
+                regretful2: [ ]
+                shocked: [ ]
+                surprised:
+                  - sad
+                surprised-looking-left: [ ]
+                surprised-looking-right: [ ]
+                sweat:
+                  - sweating
+                unamused: [ ]
+                unamused-looking-left: [ ]
+                unamused-looking-right: [ ]
+                worried: [ ]
+                worried-looking-left: [ ]
+                worried-looking-right: [ ]
+                wowie: [ ]
+              id: 21
+              name: Papyrus
+            kalinswap-sans:
+              aliases:
+                - kalinswap-sans
+                - kunderswap-sans
+                - swap-sans
+                - us-sans
+              default_expr: default
+              default_font: sans
+              expressions:
+                angry:
+                  - mad
+                angry-looking-at-camera:
+                  - angry
+                  - looking-at-camera-angry
+                  - looking-at-camera-mad
+                  - looking-at-camera-pissed
+                  - mad-looking-at-camera
+                  - pissed-looking-at-camera
+                black-eyes:
+                  - bad-time
+                  - empty-eyes
+                  - intimidating
+                closed-eyes: [ ]
+                confused: [ ]
+                confused-looking-at-camera:
+                  - confused2
+                  - confused2
+                cool:
+                  - cool-dude
+                  - cool-glasses
+                  - glasses
+                  - rad
+                  - rad-dude
+                  - rad-glasses
+                  - shades
+                cool-looking-at-camera:
+                  - cool-dude-looking-at-camera
+                  - cool-dude2
+                  - cool-glasses-looking-at-camera
+                  - cool-glasses2
+                  - cool2
+                  - rad-dude-looking-at-camera
+                  - rad-dude2
+                  - rad-glasses-looking-at-camera
+                  - rad-glasses2
+                  - rad-looking-at-camera
+                  - rad2
+                  - shades-looking-at-camera
+                  - shades2
+                crying:
+                  - cry
+                default: [ ]
+                evil:
+                  - couraged
+                evil-looking-at-camera:
+                  - couraged-looking-at-camera
+                  - evil2
+                  - looking-at-camera-couraged
+                  - looking-at-camera-evil
+                  - looking-at-camera-sad
+                funny: [ ]
+                funny-looking-at-camera:
+                  - funny2
+                  - looking-at-camera-funny
+                heart-eyes:
+                  - heart
+                  - hearts
+                  - in-love
+                  - love
+                looking-at-camera:
+                  - default2
+                raised-eyebrow: [ ]
+                raised-eyebrow-looking-at-camera:
+                  - raised-eyebrow2
+                  - raising-eyebrow2
+                sad: [ ]
+                sad-looking-at-camera:
+                  - sad2
+                surprised:
+                  - shocked
+                surprised-looking-at-camera:
+                  - looking-at-camera-shocked
+                  - looking-at-camera-surprised
+                  - shocked-looking-at-camera
+                  - surprised2
+                wink-left: [ ]
+                wink-left-looking-at-camera:
+                  - looking-at-camera-wink
+                  - looking-at-camera-winking
+                  - wink-left2
+                  - winking-looking-at-camera
+                wink-right:
+                  - winking
+                wink-right-looking-at-camera:
+                  - wink-right2
+              id: 23
+              name: Sans
+            kalinswap-temmie:
+              aliases:
+                - canonswap-temmie
+                - swap-temmie
+                - us-temmie
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 19
+              name: Temmie
+        gbunderswap:
+          name: "Green Brand Underswap"
+          characters:
+            gbunderswap-papyrus:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                closed-eyes:
+                  - hurt
+                  - pain
+                  - sad
+                default: [ ]
+                glowing-eye:
+                  - orange-eye
+                googly-eyes: [ ]
+                looking-away: [ ]
+                pissed:
+                  - angry
+                  - mad
+                suspicious: [ ]
+                wink:
+                  - winking
+              id: 91
+              name: Papyrus
+    underfell:
+      name: "Underfell"
+      takes:
+        underfell:
+          name: "Classic Underfell"
+          characters:
+            underfell-papyrus:
+              aliases:
+                - uf-paps
+                - uf-papyrus
+                - underfell-paps
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                cool:
+                  - cool-dude
+                  - cool-glasses
+                  - glasses
+                  - sunglasses
+                default: [ ]
+                evil:
+                  - couraged
+                googly-eyes: [ ]
+                laugh:
+                  - laughing
+                mad:
+                  - angry
+                  - pissed
+                sad: [ ]
+                suspicious: [ ]
+                sweat:
+                  - sweating
+                tears:
+                  - crying
+              id: 44
+              name: Papyrus
+            underfell-sans:
+              aliases:
+                - uf-sans
+              default_expr: default
+              default_font: sans
+              expressions:
+                black-eyes: [ ]
+                closed-eyes: [ ]
+                default: [ ]
+                funny: [ ]
+                glowing-eye: [ ]
+                looking-away: [ ]
+                semi-closed-eyes: [ ]
+                shocked: [ ]
+                wink: [ ]
+                wink2: [ ]
+              id: 43
+              name: Sans
+        a2eunderfell:
+          name: "A2E Underfell"
+          characters:
+            a2eunderfell-papyrus:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                crying:
+                  - cry
+                  - tears
+                default: [ ]
+                evil:
+                  - couraged
+                  - determined
+                googly-eyes:
+                  - pissed
+                laugh:
+                  - laughing
+                  - sad-smile
+                looking-away:
+                  - suspicious
+                mad:
+                  - angry
+                regretful:
+                  - sad
+                regretful2:
+                  - sad2
+                shades:
+                  - cool
+                  - cool-dude
+                  - cool-glasses
+                  - cool-shades
+                  - sunglasses
+                sweat:
+                  - sweating
+              id: 125
+              name: Papyrus
+            a2eunderfell-sans:
+              aliases: [ ]
+              default_expr: default
+              default_font: sans
+              expressions:
+                black-eyes: [ ]
+                closed-eyes: [ ]
+                default: [ ]
+                funny: [ ]
+                looking-away:
+                  - looking-left
+                wink:
+                  - winking
+              id: 124
+              name: Sans
+        prunderfell:
+          name: "Primus Underfell"
+          characters:
+            prunderfell-flowey:
+              aliases:
+                - primus-flowey
+                - pruf-flowey
+              default_expr: default
+              expressions:
+                cool:
+                  - cool-glasses
+                  - glasses
+                default: [ ]
+                evil: [ ]
+                funny:
+                  - raised-eyebrows
+                grin:
+                  - creepy-grin
+                grin2:
+                  - creepy-grin2
+                hurt:
+                  - hit
+                laugh:
+                  - creepy-laugh
+                looking-away: [ ]
+                mad:
+                  - angry
+                  - pissed
+                sassy: [ ]
+                sassy2: [ ]
+                scared: [ ]
+                screaming: [ ]
+                shocked:
+                  - surprised
+                shocked2: [ ]
+                smile:
+                  - smiling
+                toriel:
+                  - toriel-face
+                toriel-creepy:
+                  - creepy-toriel
+                  - creepy-toriel-face
+                  - toriel-melting
+                wink:
+                  - winking
+              id: 49
+              name: Flowey
+            prunderfell-papyrus:
+              aliases:
+                - primus-paps
+                - primus-papyrus
+                - pruf-paps
+                - pruf-papyrus
+                - prunderfell-paps
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                default: [ ]
+              id: 52
+              name: Papyrus
+            prunderfell-sans:
+              aliases:
+                - primus-sans
+                - pruf-sans
+              default_expr: default
+              default_font: sans
+              expressions:
+                black-eyes: [ ]
+                closed-eyes: [ ]
+                confused: [ ]
+                default: [ ]
+                funny: [ ]
+                looking-away: [ ]
+                looking-away-funny: [ ]
+                pain: [ ]
+                wink: [ ]
+              id: 51
+              name: Sans
+            prunderfell-toriel:
+              aliases:
+                - primus-toriel
+                - pruf-tori
+                - pruf-toriel
+                - prunderfell-tori
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                angry-looking-up:
+                  - eye-roll
+                  - roll-eyes
+                  - rolling-eyes
+                  - tired
+                challenging:
+                  - couraged
+                  - evil
+                closed-eyes: [ ]
+                crying:
+                  - cry
+                default: [ ]
+                disappointed: [ ]
+                glasses: [ ]
+                glasses-looking-away: [ ]
+                looking-away: [ ]
+                sad: [ ]
+                semi-closed-eyes: [ ]
+                shocked:
+                  - surprised
+                shocked-sweating: [ ]
+                smile:
+                  - smiling
+                sweating-looking-away:
+                  - looking-away-sweat
+                  - looking-away-sweating
+                  - sweat
+                  - sweat-looking-away
+                  - sweating
+              id: 50
+              name: Toriel
+        shadedground:
+          name: "Shaded Ground"
+          characters:
+            shadedground-flowey:
+              aliases:
+                - sg-flowey
+              default_expr: default
+              expressions:
+                confused: [ ]
+                creepy-grin: [ ]
+                creepy-grin2: [ ]
+                default: [ ]
+                disappointed: [ ]
+                empty: [ ]
+                evil: [ ]
+                evil2: [ ]
+                funny: [ ]
+                funny-looking-away: [ ]
+                laugh:
+                  - laughing
+                looking-left: [ ]
+                looking-right:
+                  - looking-away
+                sad: [ ]
+                sad-looking-down: [ ]
+                sassy: [ ]
+                scared: [ ]
+                sweat:
+                  - sweating
+                terrified: [ ]
+                wink:
+                  - winking
+              id: 104
+              name: Flowey
+            shadedground-sans:
+              aliases:
+                - sg-sans
+                - shaded-ground-sans
+              default_expr: default
+              default_font: sans
+              expressions:
+                black-eyes: [ ]
+                black-eyes-raised-eyebrows: [ ]
+                black-eyes-sad: [ ]
+                black-eyes-serious: [ ]
+                black-eyes-surprised: [ ]
+                blue-eye: [ ]
+                closed-eyes: [ ]
+                default: [ ]
+                looking-away: [ ]
+                raised-eyebrow: [ ]
+                raised-eyebrow-happy: [ ]
+                sad: [ ]
+                sad-looking-away: [ ]
+                sad-smile: [ ]
+                serious: [ ]
+                wink: [ ]
+                yellow-eye: [ ]
+              id: 121
+              name: Sans
+            shadedground-toriel:
+              aliases:
+                - sg-tori
+                - sg-toriel
+                - shadedground-tori
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                angry-looking-away:
+                  - looking-away-angry
+                  - looking-away-mad
+                  - looking-away-pissed
+                  - mad-looking-away
+                  - pissed-looking-away
+                annoyed: [ ]
+                blush:
+                  - blushed
+                  - blushing
+                closed-eyes: [ ]
+                confused: [ ]
+                couraged:
+                  - challenging
+                default: [ ]
+                disappointed: [ ]
+                disbelief: [ ]
+                disbelief-looking-away: [ ]
+                glasses:
+                  - with-glasses
+                glasses-looking-away:
+                  - looking-away-glasses
+                glasses-serious:
+                  - serious-glasses
+                glasses-unamused:
+                  - unamused-glasses
+                happy:
+                  - joy
+                  - joyful
+                looking-away: [ ]
+                looking-down: [ ]
+                pouty:
+                  - annoyed2
+                sad: [ ]
+                semi-closed-eyes: [ ]
+                serious: [ ]
+                serious-quirked-eyebrow: [ ]
+                smile: [ ]
+                smile-closed-eyes: [ ]
+                smile-semi-closed-eyes: [ ]
+                unamused: [ ]
+              id: 108
+              name: Toriel
+    disbelief:
+      name: "Disbelief"
+      takes:
+        disbelief:
+          name: "Disbelief"
+          characters:
+            disbelief-papyrus-1:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                concentrated: [ ]
+                default: [ ]
+              id: 59
+              name: Papyrus - Phase 1
+            disbelief-papyrus-2:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                default: [ ]
+                disappointed: [ ]
+              id: 60
+              name: Papyrus - Phase 2
+            disbelief-papyrus-3:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                cool:
+                  - cool-dude
+                  - cool-glasses
+                  - glasses
+                default: [ ]
+                regretful: [ ]
+                sad: [ ]
+                surprised:
+                  - shocked
+                worried:
+                  - looking-away
+              id: 61
+              name: Papyrus - Phase 3
+            disbelief-papyrus-4:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                angry: [ ]
+                confident:
+                  - suspicious
+                default: [ ]
+                sweat:
+                  - sweating
+                sweat-looking-away:
+                  - looking-away
+                  - sweating-looking-away
+              id: 62
+              name: Papyrus - Phase 4
+        revenge:
+          name: "Revenge"
+          characters:
+            revenge-papyrus:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                black-eyes: [ ]
+                blue-eye: [ ]
+                closed-eyes: [ ]
+                creepy: [ ]
+                default:
+                  - glowing-eye
+                  - orange-eye
+                gaster: [ ]
+                insane: [ ]
+                insane2: [ ]
+                insane3: [ ]
+                melting:
+                  - melt
+                white-pupils:
+                  - sans
+              id: 63
+              name: Papyrus
+        distrust:
+          name: "Underswap Disbelief"
+          characters:
+            distrust-sans:
+              aliases: [ ]
+              default_expr: default
+              default_font: sans
+              expressions:
+                default:
+                  - default-blue
+                default-yellow: [ ]
+                insane:
+                  - insane-blue
+                insane-yellow: [ ]
+                pissed:
+                  - pissed-blue
+                pissed-yellow: [ ]
+                sad: [ ]
+              id: 112
+              name: Sans
+    suddenchanges:
+      name: "Sudden Changes"
+      takes:
+        suddenchanges:
+          name: "Sudden Changes"
+          characters:
+            suddenchanges-alphys:
+              aliases:
+                - sc-alphys
+              default_expr: default
+              expressions:
+                blush:
+                  - blush-looking-away
+                  - blushing
+                  - blushing-looking-away
+                  - looking-away-blush
+                  - looking-away-blushing
+                confident:
+                  - sassy
+                default: [ ]
+                happy: [ ]
+                looking-away: [ ]
+                looking-down: [ ]
+                looking-up: [ ]
+                love:
+                  - in-love
+                nervous: [ ]
+                sad: [ ]
+                shocked:
+                  - scared
+                  - surprised
+                  - terrified
+                sweat:
+                  - sweating
+              id: 68
+              name: Alphys
+            suddenchanges-asriel:
+              aliases:
+                - sc-asriel
+              default_expr: default
+              expressions:
+                closed-eyes: [ ]
+                curious: [ ]
+                default: [ ]
+                happy: [ ]
+                happy-looking-away:
+                  - looking-away
+                sassy: [ ]
+                sassy2: [ ]
+                serious: [ ]
+                shocked:
+                  - surprised
+                sweat:
+                  - sweating
+                tongue-out:
+                  - wink
+                  - winking
+              id: 65
+              name: Asriel
+            suddenchanges-lasterus:
+              aliases:
+                - sc-flowey
+                - sc-lasterus
+                - suddenchanges-flowey
+              default_expr: default
+              expressions:
+                asriel: [ ]
+                asriel-melting: [ ]
+                cool:
+                  - cool-glasses
+                  - glasses
+                  - sunglasses
+                creepy-smile:
+                  - smiley
+                crying:
+                  - cry
+                cute:
+                  - :3
+                  - cat
+                  - dog
+                  - temmie
+                default: [ ]
+                frisk:
+                  - human
+                  - humans
+                glowing-eye: [ ]
+                grin: [ ]
+                jaws: [ ]
+                jaws2: [ ]
+                melting: [ ]
+                papyrus: [ ]
+                sad-smile: [ ]
+                sans: [ ]
+                sassy: [ ]
+                serious: [ ]
+                shadow-open-mouth: [ ]
+                shadow-smile: [ ]
+                skull-melting: [ ]
+                tongue-out: [ ]
+              id: 64
+              name: Lasterus
+            suddenchanges-papyrus:
+              aliases:
+                - sc-paps
+                - sc-papyrus
+                - suddenchanges-paps
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                angry: [ ]
+                cool:
+                  - cool-dude
+                  - cool-glasses
+                  - glasses
+                  - sunglases
+                crying:
+                  - cry
+                  - tear
+                default: [ ]
+                evil:
+                  - couraged
+                googly-eyes: [ ]
+                laugh:
+                  - laughing
+                looking-away:
+                  - doubtful
+                  - incredulous
+                raising-eyebrow: [ ]
+                sad: [ ]
+                serious:
+                  - concentrated
+                suspicious: [ ]
+                sweat:
+                  - sweating
+                worried: [ ]
+                wowie: [ ]
+              id: 66
+              name: Papyrus
+            suddenchanges-sans:
+              aliases:
+                - sc-sans
+              default_expr: default
+              default_font: sans
+              expressions:
+                black-eyes:
+                  - bad-time
+                closed-eyes: [ ]
+                default: [ ]
+                funny: [ ]
+                funny2: [ ]
+                incredulous:
+                  - raised-eyebrow
+                incredulous2: [ ]
+                looking-away: [ ]
+                looking-up: [ ]
+                serious: [ ]
+                sweat:
+                  - sweat-looking-away
+                  - sweating
+                  - sweating-looking-away
+                wink:
+                  - winking
+              id: 67
+              name: Sans
+            suddenchanges-toriel:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                angry: [ ]
+                annoyed: [ ]
+                default: [ ]
+                evil:
+                  - couraged
+                evil-looking-away:
+                  - couraged-looking-away
+                evil2:
+                  - couraged2
+                looking-away: [ ]
+                sad-looking-away:
+                  - sad
+                shadow: [ ]
+                sweat:
+                  - sweating
+              id: 114
+              name: Toriel
+    monsterfriends:
+      name: "Monster Friends"
+      takes:
+        monsterfriends:
+          name: "Monster Friends"
+          characters:
+            monsterfriends-mopsy:
+              aliases:
+                - mf-mopsy
+                - mopsy
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                confident:
+                  - closed-eyes
+                  - couraged
+                default: [ ]
+                happy:
+                  - laughing
+                laugh: [ ]
+                laugh-looking-down:
+                  - sad-smile
+                looking-left:
+                  - looking-away
+                looking-right: [ ]
+                psychic-vision:
+                  - hypnosis
+                  - psychic
+                sad:
+                  - looking-down
+                  - sad-looking-down
+                serious-closed-eyes: [ ]
+                wink:
+                  - winking
+              id: 70
+              name: Mopsy
+            monsterfriends-whimsie:
+              aliases:
+                - mf-whimsie
+                - whimsie
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                crying:
+                  - closed-eyes
+                  - cry
+                  - sad
+                  - sad-closed-eyes
+                default: [ ]
+                looking-away:
+                  - doubt
+                  - doubtful
+                  - nervous
+                scared:
+                  - surprised
+                shocked: [ ]
+                terrified: [ ]
+              id: 69
+              name: Whimsie
+    brokenmemories:
+      name: "Broken Memories"
+      takes:
+        brokenmemories:
+          name: "Broken Memories"
+          characters:
+            brokenmemories-amanda:
+              aliases:
+                - bm-amanda
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                blush:
+                  - blushed
+                  - blushing
+                default: [ ]
+                googly-eyes:
+                  - shocked
+                googly-eyes-mad:
+                  - angry-googly-eyes
+                  - googly-eyes-angry
+                  - googly-eyes-pissed
+                  - mad-googly-eyes
+                  - pissed
+                  - pissed-googly-eyes
+                looking-away: [ ]
+                looking-away-sweat:
+                  - looking-away-sweating
+                  - sweat-looking-away
+                  - sweating-looking-away
+                looking-down: [ ]
+                looking-up: [ ]
+                sunglasses:
+                  - cool
+                  - cool-glasses
+                sweat:
+                  - sweating
+                sweat2:
+                  - sweat-2
+                  - sweating-2
+                  - sweating2
+              id: 101
+              name: Amanda
+            brokenmemories-chara:
+              aliases:
+                - bm-chara
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                  - serious
+                bleeding: [ ]
+                bleeding-closed-eyes: [ ]
+                bleeding-closed-eyes-crying: [ ]
+                bleeding-closed-eyes-sad: [ ]
+                bleeding-closed-eyes-sad2: [ ]
+                bleeding-insane: [ ]
+                closed-eyes: [ ]
+                closed-eyes-sad: [ ]
+                default:
+                  - happy
+                  - smile
+                  - smiling
+                hit: [ ]
+                looking-away: [ ]
+                pissed: [ ]
+                pissed2: [ ]
+                sad: [ ]
+                sad-looking-away: [ ]
+                sad-looking-away2: [ ]
+                sad-looking-away3: [ ]
+                smile: [ ]
+                smile2: [ ]
+              id: 100
+              name: Chara
+            brokenmemories-frisk:
+              aliases:
+                - bm-frisk
+              default_expr: default
+              expressions:
+                angry: [ ]
+                closed-eyes: [ ]
+                default: [ ]
+                mad: [ ]
+                pissed:
+                  - crazy
+                  - insane
+                sassy:
+                  - raised-eyebrows
+                  - raising-eyebrows
+                shocked: [ ]
+                smirk:
+                  - raised-eyebrow
+                  - raising-eyebrow
+                surprised: [ ]
+              id: 99
+              name: Frisk
+    namethefallen:
+      name: "Name The Fallen"
+      takes:
+        namethefallen:
+          name: "Name The Fallen"
+          characters:
+            namethefallen-papyrus:
+              aliases:
+                - namethefallen-paps
+                - ntf-paps
+                - ntf-papyrus
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                confused: [ ]
+                default: [ ]
+                evil:
+                  - couraged
+                googly-eyes: [ ]
+                googly-eyes-sweat:
+                  - googly-eyes-sweating
+                  - sweat-googly-eyes
+                  - sweating-googly-eyes
+                mad:
+                  - angry
+                  - pissed
+                mad2:
+                  - angry2
+                  - pissed2
+                sassy: [ ]
+                shadow: [ ]
+                suspicious: [ ]
+                suspicious-smile:
+                  - smile-suspicious
+                  - smiling-suspicious
+                  - suspicious-smiling
+                suspicious-smile-looking-away:
+                  - looking-away
+                  - looking-away-smile-suspicious
+                  - looking-away-smiling-suspicious
+                  - looking-away-suspicious-smile
+                  - looking-away-suspicious-smiling
+                  - smile-suspicious-looking-away
+                  - smiling-suspicious-looking-away
+                  - suspicious-smiling-looking-away
+                suspicious-sweat:
+                  - suspicious-sweating
+                  - suspicious-sweating
+                  - sweat-suspicious
+                  - sweat-suspicious
+                  - sweating-suspicious
+                  - sweating-suspicious
+                suspicious-sweat-looking-away:
+                  - looking-away-suspicious-sweat
+                  - looking-away-suspicious-sweating
+                  - looking-away-sweat-suspicious
+                  - looking-away-sweating-suspicious
+                  - suspicious-sweating-looking-away
+                  - sweat-suspicious-looking-away
+                  - sweating-suspicious-looking-away
+                suspicious-sweat-looking-away2:
+                  - looking-away-suspicious-sweat2
+                  - looking-away-suspicious-sweating2
+                  - looking-away-sweat-suspicious2
+                  - looking-away-sweating-suspicious2
+                  - suspicious-sweating-looking-away2
+                  - sweat-suspicious-looking-away2
+                  - sweating-suspicious-looking-away2
+                suspicious2: [ ]
+                suspicious3: [ ]
+                sweat:
+                  - sweating
+                sweat-nervous:
+                  - nervous-sweat
+                  - nervous-sweating
+                  - sweating-nervous
+                sweat-sad:
+                  - sad-sweat
+                  - sad-sweating
+                  - sweating-sad
+                sweat-sad2: [ ]
+                worried: [ ]
+                worried-sweat:
+                  - sweat-worried
+                  - sweating-worried
+                  - worried-sweating
+                worried2: [ ]
+                wowie: [ ]
+              id: 110
+              name: Papyrus
+    remembrance:
+      name: "Remembrance"
+      takes:
+        remembrance:
+          name: "Remembrance"
+          characters:
+            remembrance-papyrus:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                cool:
+                  - cool-dude
+                  - cool-glasses
+                  - glasses
+                  - sunglasses
+                default:
+                  - couraged
+                  - evil
+                googly-eyes: [ ]
+                happy: [ ]
+                looking-down:
+                  - sad-looking-down
+                mad:
+                  - angry
+                  - pissed
+                sad: [ ]
+                spaghetti:
+                  - spaghetti-on-head
+                suspicious:
+                  - looking-away
+                sweat:
+                  - sweating
+                waluigi:
+                  - overused-joke
+                  - wa
+              id: 74
+              name: Papyrus
+            remembrance-sans:
+              aliases: [ ]
+              default_expr: default
+              default_font: sans
+              expressions:
+                black-eyes: [ ]
+                blue-eye: [ ]
+                default: [ ]
+                laugh: [ ]
+                sad: [ ]
+                sad-black-eyes:
+                  - black-eyes-sad
+                sad-shocked:
+                  - sad-surprised
+                  - shocked
+                  - shocked-sad
+                  - surprised-sad
+                spep:
+                  - ;)
+                  - god
+                surprised: [ ]
+                wink:
+                  - winking
+                yellow-eye: [ ]
+              id: 73
+              name: Sans
+    crossovers:
+      name: "Crossovers"
+      takes:
+        tubertale:
+          name: "Classic Tubertale"
+          characters:
+            tubertale-chara:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                angry: [ ]
+                annoyed: [ ]
+                confused: [ ]
+                default: [ ]
+                eyes-closed: [ ]
+                looking-away: [ ]
+                scary: [ ]
+                serious: [ ]
+                smug: [ ]
+                wink: [ ]
+              id: 163
+              name: Chara
+            tubertale-jack:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+                irritated: [ ]
+                looking-away: [ ]
+                pain: [ ]
+                pain-at-camera: [ ]
+                questioning: [ ]
+                raised-eyebrow: [ ]
+                sad: [ ]
+                smug: [ ]
+                winking: [ ]
+                yelling: [ ]
+                yikes: [ ]
+              id: 164
+              name: Jack
+            tubertale-mark:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                annoyed: [ ]
+                crazy: [ ]
+                default: [ ]
+                eyes-closed: [ ]
+                oh: [ ]
+                serious: [ ]
+                shadow: [ ]
+                shadow-talking: [ ]
+                stumped: [ ]
+                surprised: [ ]
+                suspicious: [ ]
+              id: 165
+              name: Mark
+            tubertale-marzia:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                angry: [ ]
+                concerned: [ ]
+                confused: [ ]
+                default: [ ]
+                gleeful: [ ]
+                happy: [ ]
+                indifferent: [ ]
+                intimidating: [ ]
+                shadow: [ ]
+                smug: [ ]
+                worried: [ ]
+              id: 162
+              name: Marzia
+            tubertale-nogla:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                agitated: [ ]
+                angry: [ ]
+                awkward: [ ]
+                blank-eyes: [ ]
+                blank-eyes-laughing: [ ]
+                closed-eyes: [ ]
+                confused: [ ]
+                crazy: [ ]
+                default: [ ]
+                glowing-and-normal-eye: [ ]
+                glowing-eye: [ ]
+                iconic: [ ]
+                laughing: [ ]
+                looking-away: [ ]
+                looking-down: [ ]
+                run: [ ]
+                sad: [ ]
+                shadow: [ ]
+                shocked: [ ]
+                smug: [ ]
+                suspicious: [ ]
+                wink: [ ]
+                yelling: [ ]
+              id: 120
+              name: Nogla
+            tubertale-tinyboxtim:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                concerned: [ ]
+                concerned-shocked: [ ]
+                confused: [ ]
+                default: [ ]
+                hmmm: [ ]
+                intimidating: [ ]
+                looking-away: [ ]
+                normal: [ ]
+                scary: [ ]
+                shocked: [ ]
+                smug: [ ]
+                suspicious: [ ]
+              id: 161
+              name: Tiny Box Tim
+        stubertale:
+          name: "Surge!Tubertale"
+          characters:
+            stubertale-delirious:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                confused: [ ]
+                crossed-eyes:
+                  - crossed-eyes
+                  - eye-crossed
+                default: [ ]
+                looking-at-camera:
+                  - funny
+                  - looking-away
+                  - sassy
+                oh:
+                  - derp
+                sad: [ ]
+                shocked:
+                  - surprised
+              id: 126
+              name: Delirious
+            stubertale-jack:
+              aliases:
+                - stt-jack
+                - stt-jackscepticeye
+                - surge-jack
+                - surge-jackscepticeye
+                - tubertale-jackscepticeye
+              default_expr: default
+              expressions:
+                angry: [ ]
+                default: [ ]
+                disbelief: [ ]
+                green-eyes: [ ]
+                sad: [ ]
+                serious: [ ]
+                sweat:
+                  - sweating
+              id: 117
+              name: Jack
+            stubertale-nogla:
+              aliases:
+                - stt-nogla
+                - surge-nogla
+              default_expr: default
+              expressions:
+                closed-eyes:
+                  - pleased
+                default: [ ]
+                happy:
+                  - laugh
+                  - laughing
+                mad: [ ]
+                pissed: [ ]
+                sad:
+                  - looking-down
+                sans: [ ]
+                serious: [ ]
+              id: 115
+              name: Nogla
+            stubertale-vanoss:
+              aliases:
+                - stt-vanoss
+                - surge-vanoss
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                closed-eyes: [ ]
+                default: [ ]
+                looking-away:
+                  - looking-left
+                sad: [ ]
+                serious:
+                  - semi-closed-eyes
+                shocked:
+                  - surprised
+                undyne: [ ]
+              id: 116
+              name: Vanoss
+        spongetale:
+          name: "Spongetale"
+          characters:
+            spongetale-patrick:
+              aliases:
+                - patrick
+              default_expr: default
+              default_font: sans
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                confused: [ ]
+                default: [ ]
+                dumb:
+                  - drool
+                  - drooling
+                funny:
+                  - looking-away
+                  - looking-left
+                idontgetit:
+                  - bone
+                mischievous:
+                  - evil
+                pinhead: [ ]
+                plank: [ ]
+                shocked:
+                  - surprised
+                sleeping:
+                  - nut
+                whereistheleakmaam:
+                  - wrench
+              id: 127
+              name: Patrick
+            spongetale-spongebob:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                confused:
+                  - confused
+                default: [ ]
+                funny: [ ]
+                glasses: [ ]
+                laughing:
+                  - laugh
+                mad:
+                  - angry
+                mocking: [ ]
+                open-mouth:
+                  - talk
+                  - talking
+                overtime: [ ]
+                patrick:
+                  - pissed
+                sassy: [ ]
+                shocked: [ ]
+                thinking:
+                  - looking-away
+                  - looking-left
+                  - suspicious
+                uh: [ ]
+              id: 128
+              name: Spongebob
+        steamedtales:
+          name: "Steamed Tales"
+          characters:
+            steamedtales-chalmers:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 130
+              name: Superintendent Chalmers
+            steamedtales-papyrus:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                default: [ ]
+              id: 132
+              name: Papyrus
+            steamedtales-sans:
+              aliases: [ ]
+              default_expr: default
+              default_font: sans
+              expressions:
+                default: [ ]
+              id: 131
+              name: Sans
+            steamedtales-seymour:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                confident:
+                  - sassy
+                confident-looking-at-camera:
+                  - looking-at-camera-confident
+                  - looking-at-camera-sassy
+                  - sassy-looking-at-camera
+                confident-talk:
+                  - confident-open-mouth
+                  - confident-talking
+                  - open-mouth-confident
+                  - talk-confident
+                  - talking-confident
+                confused: [ ]
+                default: [ ]
+                derp: [ ]
+                disgusted: [ ]
+                forced-smile: [ ]
+                grin:
+                  - grinning
+                looking-at-camera:
+                  - grin-looking-at-camera
+                  - grinning-looking-at-camera
+                  - looking-at-camera-grin
+                  - looking-at-camera-grinning
+                relieved: [ ]
+                relieved-closed-eyes: [ ]
+                scared: [ ]
+                scared-looking-away: [ ]
+                screaming:
+                  - scream
+                  - shout
+                  - shouting
+                shocked: [ ]
+                surprised: [ ]
+                worried-grin:
+                  - grin-worried
+                  - grinning-worried
+              id: 129
+              name: Seymour Skinner
+        demiverse:
+          name: "Demiverse"
+          characters:
+            demiverse-bloodeh:
+              aliases:
+                - bloodeh
+                - demi-bloodeh
+                - demi-milk
+                - demi-milky
+                - demiverse-milk
+                - demiverse-milky
+                - dv-bloodeh
+                - dv-milk
+                - dv-milky
+                - extra-bloodeh
+                - extra-milk
+                - extra-milky
+                - milk
+                - milky
+              default_expr: default
+              expressions:
+                default: [ ]
+                looking-at-camera: [ ]
+              id: 76
+              name: Bloodeh
+            demiverse-brick:
+              aliases:
+                - brick
+                - demiverse-teta
+                - demiverse-tetabrick
+                - dv-brick
+                - dv-teta
+                - dv-tetabrick
+                - extra-brick
+                - extra-teta
+                - extra-tetabrick
+                - teta
+                - tetabrick
+              default_expr: default
+              expressions:
+                default: [ ]
+                looking-at-camera: [ ]
+              id: 103
+              name: Brick
+            demiverse-demi:
+              aliases:
+                - demi
+                - demi-demi
+                - demi-demirramon
+                - demirramon
+                - demiverse-demirramon
+                - dv-demi
+                - dv-demirramon
+                - extra-demi
+                - extra-demirramon
+                - folf
+                - waff
+                - wolf
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                blush:
+                  - blushed
+                  - blushing
+                closed-eyes: [ ]
+                couraged:
+                  - confident
+                  - evil
+                default: [ ]
+                embarassed: [ ]
+                embarassed2: [ ]
+                funny: [ ]
+                happy: [ ]
+                looking-at-camera: [ ]
+                pain: [ ]
+                pissed: [ ]
+                sad: [ ]
+                sad-closed-eyes: [ ]
+                serious: [ ]
+                shadow: [ ]
+                shadow-grin: [ ]
+                shadow-pissed:
+                  - glowing-eye
+                  - shadow-glowing-eye
+                shadow-smile: [ ]
+                shocked: [ ]
+                smile:
+                  - sad-smile
+                  - smiling
+                surprised: [ ]
+                sweat:
+                  - sweating
+              id: 75
+              name: Demi
+            demiverse-kean:
+              aliases:
+                - demi-kean
+                - dv-kean
+                - extra-kean
+                - kean
+              default_expr: default
+              expressions:
+                angry:
+                  - mad
+                  - pissed
+                couraged:
+                  - evil
+                default: [ ]
+                looking-away:
+                  - looking-left
+                madman:
+                  - hypermadcat
+                  - hypermadkean
+                  - madcat
+                  - madkean
+                  - madman
+                  - themadman
+                serious: [ ]
+                shocked: [ ]
+                sweat:
+                  - nervous
+                  - sweating
+              id: 123
+              name: Kean
+        fnaf-tale-of-completion:
+          # disabled for some reason?
+          name: "FNAF: Tale of Completion"
+          characters:
+            fnaf-toc-lefty:
+              aliases:
+                - fnaf-lefty
+                - fnaf-tale-of-completion-lefty
+                - fnaf-tc-lefty
+              default_expr: default
+              expressions:
+                angry: [ ]
+                annoyed: [ ]
+                annoyed-looking-away: [ ]
+                annoyed-looking-away2: [ ]
+                confident: [ ]
+                confused: [ ]
+                default: [ ]
+                evil: [ ]
+                sad: [ ]
+                sassy: [ ]
+                surprised: [ ]
+                surprised-squint: [ ]
+                wink: [ ]
+              id: 198
+              name: Lefty
+            fnaf-toc-michael:
+              aliases:
+                - fnaf-michael
+                - fnaf-tale-of-completion-michael
+                - fnaf-tc-michael
+              default_expr: default
+              expressions:
+                angry: [ ]
+                closed-eyes: [ ]
+                confused: [ ]
+                creepy-eyes: [ ]
+                creepy-eyes-semi-closed: [ ]
+                default: [ ]
+                evil: [ ]
+                laugh: [ ]
+                smile: [ ]
+                surprised: [ ]
+              id: 197
+              name: Michael
+            fnaf-toc-springbonnie:
+              aliases:
+                - fnaf-springbonnie
+                - fnaf-tale-of-completion-springbonnie
+                - fnaf-tc-springbonnie
+              default_expr: default
+              expressions:
+                angry: [ ]
+                annoyed: [ ]
+                closed-eyes: [ ]
+                default: [ ]
+                excited: [ ]
+                googly-eyes: [ ]
+                insane: [ ]
+                laugh: [ ]
+                looking-away: [ ]
+                pissed: [ ]
+                sad: [ ]
+                sad-smile: [ ]
+                sad-smile-closed-eyes: [ ]
+                sad-smile2: [ ]
+                sassy: [ ]
+                shocked: [ ]
+                shocked2: [ ]
+                smile: [ ]
+                worried: [ ]
+                worried-looking-down: [ ]
+              id: 199
+              name: Spring bonnie
+        demitale:
+          name: "Demitale"
+          characters:
+            demitale-brisk:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 176
+              name: Brisk
+            demitale-demey:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 166
+              name: Demey
+            demitale-demionfire:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 178
+              name: Demi on fire
+            demitale-demiperiod:
+              aliases: [ ]
+              default_expr: default
+              default_font: sans
+              expressions:
+                default: [ ]
+              id: 169
+              name: demi period.
+            demitale-demirel:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 167
+              name: Demirel
+            demitale-demstablook:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 168
+              name: Demstablook
+            demitale-demyrus:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                default: [ ]
+              id: 170
+              name: DEMYRUS
+            demitale-doctordemi:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 173
+              name: Doctor Demi
+            demitale-karan:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 177
+              name: Karan
+            demitale-mettaton:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+                expression1704: [ ]
+                keanton: [ ]
+                rezpiton: [ ]
+                solaton: [ ]
+              id: 179
+              name: Everyoneton
+            demitale-omega-demey:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 182
+              name: Omega Demey
+            demitale-smoldemi:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 175
+              name: Smoldemi
+            demitale-undemi:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 171
+              name: Undemi
+            undertale-demigorb:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 174
+              name: Demigorb
+            undertale-demmie:
+              aliases: [ ]
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 172
+              name: Demmie
+    extra:
+      name: "Extra"
+      takes:
+        extra-people:
+          name: "Extra people"
+          characters:
+            extra-anon:
+              aliases:
+                - anon
+                - anon-tumblr
+                - extra-anon-tumblr
+                - extra-tumblr-anon
+                - tumblr-anon
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 107
+              name: Tumblr Anon
+            extra-blue:
+              aliases:
+                - blue
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 83
+              name: Blue
+            extra-cerulean:
+              aliases:
+                - cerulean
+                - deacon
+                - extra-deacon
+              default_expr: default
+              expressions:
+                angry: [ ]
+                default: [ ]
+                happy: [ ]
+                homie:
+                  - fucktard
+                  - funeral
+                  - your-funeral
+                  - your-funeral-fucktard
+                pissed:
+                  - black-eyes
+                  - glowing-eye
+                  - red-eye
+                sad: [ ]
+                serious: [ ]
+              id: 106
+              name: Cerulean
+            extra-emerald:
+              aliases:
+                - emerald
+                - emeraldhead
+                - extra-emeraldhead
+                - extra-possiblypop
+                - possiblypop
+              default_expr: default
+              expressions:
+                angery:
+                  - banana
+                angry:
+                  - mad
+                closed-eyes: [ ]
+                couraged:
+                  - evil
+                default: [ ]
+                disappointed:
+                  - tired
+                funny: [ ]
+                laugh:
+                  - laughing
+                looking-away: [ ]
+                nervous:
+                  - looking-down-sweat
+                  - looking-down-sweating
+                  - sweat-looking-down
+                  - sweat2
+                  - sweating-looking-down
+                  - sweating2
+                sad: [ ]
+                shocked: [ ]
+                shocked-happy:
+                  - happy-shocked
+                surprised: [ ]
+                surprised-looking-away:
+                  - looking-away-surprised
+                sweat:
+                  - sweating
+              id: 105
+              name: Emerald
+            extra-emeraldmii:
+              aliases:
+                - emeraldmii
+              default_expr: default
+              expressions:
+                default: [ ]
+                disbelief:
+                  - .
+                  - period
+                emerald:
+                  - realistic
+                looking-away: [ ]
+                oof:
+                  - cry
+                  - crying
+                ow: [ ]
+                sad: [ ]
+                sans:
+                  - kiddo
+                serious: [ ]
+                wew: [ ]
+                wink:
+                  - wank
+                  - winking
+              id: 77
+              name: EmeraldHead Mii
+            extra-gabe:
+              aliases:
+                - dog
+                - doggo
+                - extra-dog
+                - extra-doggo
+                - gabe
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 90
+              name: Gabe
+            extra-green:
+              aliases:
+                - eggplant
+                - extra-eggplant
+                - green
+              default_expr: default
+              expressions:
+                closed-eye: [ ]
+                default: [ ]
+                funny:
+                  - looking-away
+                green-eye:
+                  - glowing-eye
+                looking-away: [ ]
+                purple-eye: [ ]
+                sweat:
+                  - shocked
+                  - surprised
+                  - sweating
+              id: 88
+              name: Green
+            extra-jax:
+              aliases:
+                - brendan
+                - bruno
+                - extra-brendan
+                - extra-bruno
+                - extra-jack
+                - jack
+                - jax
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 78
+              name: Jack
+            extra-thunders:
+              aliases:
+                - extra-jolteon
+                - jolteon
+                - thunders
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 87
+              name: Thunders
+            extra-vinix:
+              aliases:
+                - vinix
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 81
+              name: Vinix
+            extra-xtended:
+              aliases:
+                - extended
+                - extendedfun
+                - extra-extended
+                - extra-extendedfun
+                - extra-xtendedfun
+                - xtended
+                - xtendedfun
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 89
+              name: Xtended
+        extra-characters:
+          name: "Extra characters"
+          characters:
+            extra-best-boi:
+              aliases:
+                - best-boi
+                - bestboi
+                - dutch-fox
+                - dutchfox
+                - extra-bestboi
+                - extra-dutch-fox
+                - extra-dutchfox
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 188
+              name: Best boi
+            extra-ness:
+              aliases:
+                - ness
+              default_expr: default
+              default_font: earthbound
+              expressions:
+                closed-eyes: [ ]
+                default: [ ]
+                funny: [ ]
+                sans: [ ]
+                shadow: [ ]
+                unamused: [ ]
+                wink: [ ]
+              id: 92
+              name: Ness
+            extra-sanicbrand-spep:
+              aliases:
+                - sanicbrand-spep
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 93
+              name: Sanic Brand Spep
+            prunsel:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                default: [ ]
+              id: 215
+              name: Prunsel
+        extra-memes:
+          name: "Extra memes"
+          characters:
+            extra-b:
+              aliases:
+                - ':b:'
+                - b
+              default_expr: default
+              expressions:
+                black: [ ]
+                default: [ ]
+                red:
+                  - color
+                  - colored
+              id: 95
+              name: B
+            extra-madman:
+              aliases:
+                - madman
+              default_expr: default
+              expressions:
+                color:
+                  - colored
+                default: [ ]
+                madkean:
+                  - cat
+                  - kean
+              id: 96
+              name: Madman
+            extra-papru:
+              aliases:
+                - papru
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                default: [ ]
+              id: 97
+              name: Papru
+            extra-spongebob:
+              aliases: [ ]
+              default_expr: default
+              default_font: papyrus
+              expressions:
+                default:
+                  - patrick
+              id: 94
+              name: PATRICK
+            extra-tidepod:
+              aliases:
+                - extra-forbidden-fruit
+                - extra-forbiddenfruit
+                - extra-tide-pod
+                - forbidden-fruit
+                - forbiddenfruit
+                - tide-pod
+                - tidepod
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 118
+              name: Forbidden fruit
+            extra-ugandan-knuckles:
+              aliases:
+                - da-wae
+                - knuckles
+                - the-wae
+                - the-way
+                - ugandan-knuckles
+                - ugandanknuckles
+              default_expr: default
+              expressions:
+                default: [ ]
+              id: 111
+              name: Ugandan Knuckles

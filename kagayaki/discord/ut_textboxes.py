@@ -1,5 +1,6 @@
+from collections import defaultdict
 from enum import Enum
-from typing import Optional
+from typing import Optional, Sequence
 from urllib.parse import quote
 from typing import TypeVar, Generic
 
@@ -7,7 +8,32 @@ import lightbulb
 import requests
 import os.path
 
+from hikari import MessageFlag, CommandInteractionOption, AutocompleteInteraction, CommandChoice
+
 from kagayaki.discord import bot, send_as_webhook
+
+
+from kagaconf import cfg
+
+ut_universes = cfg.utbox.universes()
+ut_characters = dict()
+ut_aliases = []
+ut_expression_aliases = dict()
+for universe in ut_universes.values():
+    for auname, take in universe["takes"].items():
+        for name, char in take["characters"].items():
+            ut_characters[name] = char | {"universe": auname}
+            ut_aliases.append(name)
+            ut_aliases += char["aliases"]
+
+            expr_aliases = list()
+            for expr_name, expr_al in char["expressions"].items():
+                expr_aliases.append(expr_name)
+                expr_aliases += expr_al
+
+            ut_expression_aliases[name] = expr_aliases
+            for alias in char["aliases"]:
+                ut_expression_aliases[alias] = expr_aliases
 
 
 class TextBoxBorder(Enum):
@@ -86,10 +112,24 @@ def fetch_text_box(url, filename=None, img_format="png"):
     return filename
 
 
+async def utbox_autocomplete(cio: CommandInteractionOption, ai: AutocompleteInteraction)\
+        -> str | CommandChoice | Sequence[str | CommandChoice]:
+    if cio.name == 'character':
+        return ([name for name in ut_aliases if name.startswith(cio.value)])[:25]
+    if cio.name == 'expression':
+        character = ""
+        for option in ai.options:
+            if option.name == "character":
+                character = option.value
+        if character not in ut_expression_aliases:
+            return []
+        return ([name for name in ut_expression_aliases[character] if name.startswith(cio.value)])[:25]
+
+
 @bot.command
 @lightbulb.option("text", "content of the text box", str, required=True)
-@lightbulb.option("character", "character to be used", str, required=False)
-@lightbulb.option("expression", "expression of the character", str, required=False)
+@lightbulb.option("character", "character to be used", str, required=False, autocomplete=utbox_autocomplete)
+@lightbulb.option("expression", "expression of the character", str, required=False, autocomplete=utbox_autocomplete)
 @lightbulb.option("image_url", "url pointing to a character sprite", str, required=False)
 @lightbulb.option("box", "text box design", str,
                   default=TextBoxBorder.UNDERTALE.value, choices=[el.value for el in TextBoxBorder])
@@ -116,7 +156,8 @@ async def utbox_command(ctx: lightbulb.Context):
     if anonymous:
         await bot.rest.create_message(ctx.channel_id, url)
     else:
-        await send_as_webhook(ctx.channel_id, url, user=ctx.user)
+        if await send_as_webhook(ctx.channel_id, url, user=ctx.user) is None:
+            await ctx.respond(url, flags=MessageFlag.NONE, reply=False)
 
 
 if __name__ == '__main__':

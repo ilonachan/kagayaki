@@ -1,3 +1,5 @@
+# copy this tile to "reddit.yaml" or any name of your choice (must not start with _)
+# and enter your correct values.
 reddit:
   client_id: "CLIENT_ID"
   client_secret: "CLIENT_SECRET"
