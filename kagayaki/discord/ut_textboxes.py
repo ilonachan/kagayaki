@@ -15,6 +15,8 @@ from kagayaki.discord import bot, send_as_webhook
 
 from kagaconf import cfg
 
+from kagayaki.discord.utils import is_allowed_to_send
+
 ut_universes = cfg.utbox.universes()
 ut_characters = dict()
 ut_aliases = []
@@ -146,6 +148,10 @@ async def utbox_autocomplete(cio: CommandInteractionOption, ai: AutocompleteInte
 @lightbulb.command("utbox", description="create an undertale textbox", ephemeral=True)
 @lightbulb.implements(lightbulb.SlashCommand)
 async def utbox_command(ctx: lightbulb.Context):
+    if not is_allowed_to_send(ctx.member):
+        await ctx.respond("Sorry, I'm not allowed to let you do that rn \\:(")
+        return
+
     options = ctx.raw_options
     options["box"] = TextBoxBorder(options["box"])
     options["font"] = TextBoxFont(options["font"])
