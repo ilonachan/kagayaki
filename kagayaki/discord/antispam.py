@@ -23,8 +23,10 @@ def message_length(message: PartialMessage | str):
         content: str = message
     else:
         content: str = message.content
+    if content is None:
+        return 0
 
-    line_count = sum(ceil(max(len(line),1) / LINE_LENGTH) for line in content.split('\n'))
+    line_count = sum(ceil(max(len(line), 1) / LINE_LENGTH) for line in content.split('\n'))
     return line_count
 
 

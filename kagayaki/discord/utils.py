@@ -1,3 +1,4 @@
+import logging
 from typing import Sequence
 
 from hikari.guilds import Member
@@ -5,8 +6,11 @@ from hikari.guilds import Member
 from kagayaki.discord import bot
 from kagaconf import cfg
 
+log = logging.getLogger(__name__)
 
 def contains_any(text: str, patterns: Sequence[str]):
+    if text is None:
+        return False
     for p in patterns:
         if p in text:
             return True
@@ -14,6 +18,8 @@ def contains_any(text: str, patterns: Sequence[str]):
 
 
 def have_i_been_called(content: str) -> bool:
+    if content is None:
+        return False
     return contains_any(content.lower(), ["kagayaki", "kagachan", "kaga-chan", "kaga chan",
                                           f"<@{bot.get_me().id}>", f"<@!{bot.get_me().id}>"])
 
