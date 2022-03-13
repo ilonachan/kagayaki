@@ -49,7 +49,11 @@ async def send_as_webhook(
 
     try:
         if int(channel) not in webhooks:
-            whs = await bot.rest.fetch_channel_webhooks(channel)
+            try:
+                whs = await bot.rest.fetch_channel_webhooks(channel)
+            except NotFoundError:
+                log.info("Hikari has not yet implemented threads, and possibly webhooks can't be used in threads")
+                return None
             for wh in whs:
                 if isinstance(wh, IncomingWebhook) and wh.name == f'kgyk-{int(channel)}':
                     log.info(f'Webhook for channel {int(channel)} was found, reusing')

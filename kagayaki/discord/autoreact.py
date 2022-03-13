@@ -38,6 +38,8 @@ async def autoreact(event: GuildMessageCreateEvent):
     waiting_time = np.random.beta(2.5, 8)*0.6
     await asyncio.sleep(waiting_time)
     content = event.message.content
+    if content is None:
+        return
     if contains_any(content, ["DETERMINATION", "DETERMINED"]) and \
             (dt_emote := cfg.discord.guilds[event.guild_id].dt_emote(0)) != 0:
         await event.message.add_reaction('determination', dt_emote)

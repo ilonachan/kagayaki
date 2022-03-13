@@ -1,14 +1,13 @@
-from collections import defaultdict
 from enum import Enum
 from typing import Optional, Sequence
 from urllib.parse import quote
-from typing import TypeVar, Generic
 
 import lightbulb
 import requests
 import os.path
 
-from hikari import MessageFlag, CommandInteractionOption, AutocompleteInteraction, CommandChoice
+from hikari import CommandInteractionOption, AutocompleteInteraction, CommandChoice
+from hikari.files import URL
 
 from kagayaki.discord import bot, send_as_webhook
 
@@ -158,15 +157,10 @@ async def utbox_command(ctx: lightbulb.Context):
     anonymous = options["anonymous"]
     del options["anonymous"]
     url = url_from_params(**options)
+    image = URL(url)
     await ctx.respond("\N{ZERO WIDTH NON-JOINER}❤", delete_after=None)
     if anonymous:
-        await bot.rest.create_message(ctx.channel_id, url)
+        await bot.rest.create_message(ctx.channel_id, attachment=image)
     else:
-        if await send_as_webhook(ctx.channel_id, url, user=ctx.user) is None:
-            await ctx.respond(url, flags=MessageFlag.NONE, reply=False)
-
-
-if __name__ == '__main__':
-    myurl = url_from_params('looking good, kiddo', character='sans', expression="blue-eye")
-    print(myurl)
-    image = fetch_text_box(myurl)
+        if await send_as_webhook(ctx.channel_id, attachment=image, user=ctx.user) is None:
+            await bot.rest.create_message(ctx.channel_id, f"**{ctx.user.mention}:**", attachment=image)
