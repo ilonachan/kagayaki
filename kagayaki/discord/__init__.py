@@ -94,4 +94,6 @@ import kagayaki.discord.autoreact
 import kagayaki.discord.humanize
 import kagayaki.discord.jokes
 import kagayaki.discord.ut_textboxes
-import kagayaki.discord.antispam
+# nothing but trouble, this one
+#import kagayaki.discord.antispam
+import kagayaki.discord.randomrole
