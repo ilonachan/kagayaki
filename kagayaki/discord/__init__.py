@@ -97,3 +97,4 @@ import kagayaki.discord.ut_textboxes
 # nothing but trouble, this one
 #import kagayaki.discord.antispam
 import kagayaki.discord.randomrole
+import kagayaki.discord.taylorskep
