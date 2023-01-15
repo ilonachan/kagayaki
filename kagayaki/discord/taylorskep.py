@@ -18,5 +18,5 @@ with open('config/dialogue/taylor_swift_lyrics.txt', 'r') as lyricsfile:
 async def singToSkaeppy(event: MessageCreateEvent):
   skep_userid = cfg.discord.skep(0)
   if skep_userid == 0: return
-  if(skep_userid in event.message.mentions.users):
+  if(skep_userid in event.message.mentions.users and event.message.referenced_message.author.id != skep_userid):
     await natural_message(event.channel_id, random.choice(TAYLOR_SWIFT_LINES))
